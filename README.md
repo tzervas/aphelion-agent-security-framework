@@ -6,7 +6,7 @@ A lightweight, modular security framework for AI/ML models, agents, tools, and d
 In active development. All components subject to change. Contributions and feedback welcome.
 
 ## 🎯 Intent
-Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises, inspired by projects like ZTA-MCP-Tools.
+Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises.
 
 ## 🛠️ Goals
 - **Simplify Integration**: Templatize security controls for AI models, tools, and data, making setup intuitive.
@@ -207,6 +207,5 @@ Apache 2.0 - See [LICENSE](LICENSE) for details.
 ## 📚 References
 - [Google ADK](https://github.com/google/adk-python)
 - [Anthropic MCP SDK](https://github.com/anthropics/anthropic-sdk-python)
-- [ZTA-MCP-Tools](https://github.com/tzervas/ZTA-MCP-Tools)
 
 Happy Secure Agent Building!
