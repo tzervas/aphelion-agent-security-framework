@@ -1,78 +1,144 @@
 # Aphelion Agent Security Framework
 
+🚀 **Project Status**: In active development. All components subject to change. Contributions and feedback welcome.
+
+🎯 **Intent**: Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises.
+
+🛠️ **Goals**:
+- Simplify Integration
+- Enhance Security
+- Broad Applicability
+- Configurability
+- Performance
+- Scalability
+
+## Table of Contents
+
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+    - [Basic Example](#basic-example)
+    - [Advanced Usage](#advanced-usage)
+4. [Features](#features)
+5. [Configuration](#configuration)
+6. [Testing](#testing)
+7. [Contribution](#contribution)
+8. [License](#license)
+9. [Contact](#contact)
+10. [Troubleshooting](#troubleshooting)
+11. [Acknowledgments](#acknowledgments)
+12. [References](#references)
+
+## Description
+
 A lightweight, modular security framework for AI/ML models, agents, tools, and data, targeting Google ADK, Anthropic MCP, and extensible protocols that emphasizes ease of use, zero-trust security, and flexible deployment.
 
-## 🚀 Project Status
+## Installation
 
-In active development. All components subject to change. Contributions and feedback welcome.
+To install the Aphelion Agent Security Framework, use pip:
 
-## 🎯 Intent
+```bash
+pip install git+https://github.com/tzervas/aphelion-agent-security-framework.git@main
+```
 
-Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises.
+For development, we recommend using [UV](https://docs.astral.sh/uv/) for managing dependencies. See the [Development Setup](#development-setup) section for more details.
 
-## 🛠️ Goals
+## Usage
 
-- **Simplify Integration**: Templatize security controls for AI models, tools, and data, making setup intuitive.
-- **Enhance Security**: Implement zero-trust authentication, RBAC/ABAC, and dynamic policies to mitigate risks.
-- **Broad Applicability**: Support local sandboxes, Docker, Kubernetes, and cloud deployments.
-- **Configurability**: Enable/disable features (e.g., encryption, logging) with minimal effort.
-- **Performance**: Deliver lightweight, high-performance security with clear monitoring signals.
-- **Scalability**: Scale from hobbyist projects to enterprise clusters without compromising usability.
+### Basic Example
 
-## 📋 Requirements
+Here’s a simple example of how to use the framework:
 
-### Functional
+```python
+from aphelion import SecurityFramework
 
-- **Unified Interface**: Common authentication, authorization, and logging for MCP and ADK.
-- **Protocol Handlers**: Modular handlers for MCP, ADK, and future protocols.
-- **Dynamic Switching**: Route requests to appropriate handlers based on protocol.
-- **Zero-Trust**: Token-based authentication (JWT) and dynamic policy enforcement.
-- **RBAC/ABAC**: Use `pycasbin` for role- and attribute-based access control.
-- **Data Security**: Encrypt sensitive data (`cryptography`) and validate inputs.
-- **Monitoring**: Real-time event logging (`logging`) and alerts.
-- **Deployment**: Support Docker, Kubernetes, Helm, and local sandboxes.
+# Initialize the framework
+framework = SecurityFramework(config_path="config.yaml")
 
-### Non-Functional
+# Authenticate a user
+user = framework.authenticate(token="valid_token")
 
-- **Lightweight**: Minimize dependencies and optimize performance.
-- **Idempotent**: Ensure repeatable security operations.
-- **Modular**: Design reusable, extensible components.
-- **Ease of Use**: Clear docs, YAML/env configs, and simple setup.
-- **Maintainable**: Adhere to PEP 8 and Python best practices.
-- **Scalable**: Handle small to enterprise-scale deployments.
+# Authorize an action
+if framework.authorize(user, action="call_tool", resource="tool1"):
+    result = framework.dispatch(protocol="MCP", action="call_tool", resource="tool1")
+    print(result)
+else:
+    print("Access denied")
+```
 
-### Constraints
+### Advanced Usage
 
-- **Performance**: Avoid workflow slowdowns with efficient libraries.
-- **Dependencies**: Use Python 3.12-compatible libraries (`pycasbin`, `pyjwt`, `adk-python`, `anthropic-sdk-python`).
-- **Compatibility**: Focus on MCP and ADK, with extensibility plans.
-- **User Skill**: Cater to hobbyists and experts, minimizing complexity.
-- **Standards**: Align with zero-trust and least privilege principles.
+For more advanced usage, including FastAPI integration, refer to the [Proposed Implementation](#proposed-implementation) section.
 
-## 🏗️ Proposed Implementation
+## Features
+
+- Unified security interface for MCP and ADK
+- Zero-trust authentication and authorization
+- Dynamic RBAC/ABAC policies
+- Data encryption and input validation
+- Comprehensive logging and monitoring
+- Flexible deployment options (Docker, Kubernetes, etc.)
+
+## Configuration
+
+The framework can be configured using a YAML file or environment variables. Example `config.yaml`:
+
+```yaml
+authentication:
+  jwt_secret: "your_secret_key"
+authorization:
+  model_file: "rbac_model.conf"
+  policy_file: "rbac_policy.csv"
+logging:
+  level: "INFO"
+  file: "security.log"
+```
+
+For a full list of options, see the [Configuration Guide](docs/configuration.md). <!-- Assuming such a guide exists -->
+
+## Testing
+
+To run the tests, use:
+
+```bash
+pytest
+```
+
+Ensure development dependencies are installed. See the [Development Setup](#development-setup) section.
+---
+
+## Development Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tzervas/aphelion-agent-security-framework.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd aphelion-agent-security-framework
+   ```
+3. Use [UV](https://docs.astral.sh/uv/) to install dependencies:
+   ```bash
+   uv sync
+   ```
+4. Configure the framework by updating `config.yaml` or setting environment variables.
+5. Run the application:
+   ```bash
+   python main.py
+   ```
+   or use Docker:
+   ```bash
+   docker-compose up
+   ```
+
+---
+
+## Proposed Implementation
 
 ### Proof of Concept (POC)
 
 Demonstrates core security concepts in a simplified form.
 
-**Components**:
-- Security core: JWT authentication (`pyjwt`), RBAC authorization (`pycasbin`).
-- Handlers: Basic MCP and ADK request parsing and security checks.
-- Dispatcher: Routes requests based on protocol identifier.
-
-**Functionality**:
-- Authenticate agent/user with JWT.
-- Authorize tool calls based on RBAC policies.
-- Log events to console/file.
-
-**Environment**: Local Python script or Docker container.
-
-**Success Criteria**:
-- Processes MCP/ADK requests.
-- Consistently allows/denies based on policies.
-- Logs events for verification.
-
-**Example**:
 ```python
 import jwt
 from casbin import Enforcer
@@ -106,34 +172,6 @@ print(result)
 
 Robust, configurable, and deployment-ready for go-to-market.
 
-**Components**:
-- **Security Core**: Configurable JWT authentication, `pycasbin` authorization, and `logging`.
-- **Handlers**: Full MCP/ADK handlers with error handling and token verification.
-- **Dispatcher**: FastAPI-based routing (`/mcp/call_tool`, `/adk/call_tool`).
-
-**Features**:
-- Zero-trust with dynamic RBAC/ABAC.
-- OAuth2 support (`auth0-python`).
-- Configurable data encryption (`cryptography`).
-- Comprehensive logging with Prometheus integration.
-- YAML/env configuration (`pydantic`).
-
-**Deployment**:
-- Docker container with Dockerfile.
-- Kubernetes manifests and Helm charts.
-- Docker Compose for local sandboxing.
-
-**Documentation**:
-- README with setup, examples, and configs.
-- OpenAPI spec via FastAPI.
-
-**Success Criteria**:
-- Integrates with real MCP/ADK deployments.
-- Handles 100+ concurrent requests.
-- Supports human/AI users and MCP/ADK protocols.
-- Installs in <5 minutes.
-
-**Example**:
 ```python
 from fastapi import FastAPI, HTTPException
 from casbin import Enforcer
@@ -176,18 +214,11 @@ async def adk_call(request: Request):
     raise HTTPException(403, "Access denied")
 ```
 
-**Dockerfile**:
-```dockerfile
-FROM python:3.12-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
+---
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
+🔒
 - **Zero-Trust**: Validate all requests with JWT and enforce least privilege.
 - **RBAC/ABAC**: Dynamic policies via `pycasbin` for fine-grained control.
 - **Encryption**: Use `cryptography` for sensitive data (configurable).
@@ -196,37 +227,34 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - **Dependency Management**: Minimal, vetted dependencies with regular updates.
 - **Secure Defaults**: Enable encryption and strict policies by default.
 
-## 📦 Installation
+---
 
-```bash
-pip install git+https://github.com/tzervas/aphelion-agent-security-framework.git@main
-```
+## Contribution
 
-## 🛠️ Development Setup
+Contributions are welcome! Please see the [Developer Guide](docs/devel-docs/developer_guide.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-1. Clone: `git clone https://github.com/tzervas/aphelion-agent-security-framework.git`
-2. Install: `pip install -r requirements.txt`
-3. Configure: Update `config.yaml` or env vars.
-4. Run: `python main.py` or `docker-compose up`.
+## License
 
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for bug reports, feature requests, and code contributions.
-
-## 📄 License
-
-license; see [LICENSE](LICENSE) for more information.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contact
 
 - **Author**: Tyler Zervas
-- **GitLab**: [tzervas](https://github.com/tzervas)
+- **GitHub**: [tzervas](https://github.com/tzervas)
 - **X**: [@vec_wt_tech](https://x.com/vec_wt_tech)
 
+## Troubleshooting
 
-## 📚 References
+If you encounter issues, check the [issue tracker](https://github.com/tzervas/aphelion-agent-security-framework/issues) or contact the author.
 
-- [Google ADK](https://github.com/google/adk-python)
+## Acknowledgments
+
+Special thanks to the developers of [pycasbin](https://github.com/casbin/pycasbin), [pyjwt](https://github.com/jpadilla/pyjwt), and the Loguru library for their excellent tools.
+
+## References
+
+- [Google Python ADK GitHub Repo](https://github.com/google/adk-python)
 - [Anthropic MCP SDK](https://github.com/anthropics/anthropic-sdk-python)
+- [UV Documentation](https://docs.astral.sh/uv/)
 
 Happy Secure Agent Building!
