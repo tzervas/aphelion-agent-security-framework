@@ -3,12 +3,15 @@
 A lightweight, modular security framework for AI/ML models, agents, tools, and data, targeting Google ADK, Anthropic MCP, and extensible protocols that emphasizes ease of use, zero-trust security, and flexible deployment.
 
 ## 🚀 Project Status
+
 In active development. All components subject to change. Contributions and feedback welcome.
 
 ## 🎯 Intent
+
 Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises.
 
 ## 🛠️ Goals
+
 - **Simplify Integration**: Templatize security controls for AI models, tools, and data, making setup intuitive.
 - **Enhance Security**: Implement zero-trust authentication, RBAC/ABAC, and dynamic policies to mitigate risks.
 - **Broad Applicability**: Support local sandboxes, Docker, Kubernetes, and cloud deployments.
@@ -19,6 +22,7 @@ Simplify and strengthen security for AI agents, tool interactions, and data acce
 ## 📋 Requirements
 
 ### Functional
+
 - **Unified Interface**: Common authentication, authorization, and logging for MCP and ADK.
 - **Protocol Handlers**: Modular handlers for MCP, ADK, and future protocols.
 - **Dynamic Switching**: Route requests to appropriate handlers based on protocol.
@@ -29,6 +33,7 @@ Simplify and strengthen security for AI agents, tool interactions, and data acce
 - **Deployment**: Support Docker, Kubernetes, Helm, and local sandboxes.
 
 ### Non-Functional
+
 - **Lightweight**: Minimize dependencies and optimize performance.
 - **Idempotent**: Ensure repeatable security operations.
 - **Modular**: Design reusable, extensible components.
@@ -37,6 +42,7 @@ Simplify and strengthen security for AI agents, tool interactions, and data acce
 - **Scalable**: Handle small to enterprise-scale deployments.
 
 ### Constraints
+
 - **Performance**: Avoid workflow slowdowns with efficient libraries.
 - **Dependencies**: Use Python 3.12-compatible libraries (`pycasbin`, `pyjwt`, `adk-python`, `anthropic-sdk-python`).
 - **Compatibility**: Focus on MCP and ADK, with extensibility plans.
@@ -46,6 +52,7 @@ Simplify and strengthen security for AI agents, tool interactions, and data acce
 ## 🏗️ Proposed Implementation
 
 ### Proof of Concept (POC)
+
 Demonstrates core security concepts in a simplified form.
 
 **Components**:
@@ -96,6 +103,7 @@ print(result)
 ```
 
 ### Minimum Viable Product (MVP)
+
 Robust, configurable, and deployment-ready for go-to-market.
 
 **Components**:
@@ -179,6 +187,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
 ## 🔒 Security Best Practices
+
 - **Zero-Trust**: Validate all requests with JWT and enforce least privilege.
 - **RBAC/ABAC**: Dynamic policies via `pycasbin` for fine-grained control.
 - **Encryption**: Use `cryptography` for sensitive data (configurable).
@@ -188,23 +197,35 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - **Secure Defaults**: Enable encryption and strict policies by default.
 
 ## 📦 Installation
+
 ```bash
 pip install git+https://github.com/tzervas/aphelion-agent-security-framework.git@main
 ```
 
 ## 🛠️ Development Setup
+
 1. Clone: `git clone https://github.com/tzervas/aphelion-agent-security-framework.git`
 2. Install: `pip install -r requirements.txt`
 3. Configure: Update `config.yaml` or env vars.
 4. Run: `python main.py` or `docker-compose up`.
 
 ## 🤝 Contributing
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for bug reports, feature requests, and code contributions.
 
 ## 📄 License
-Apache 2.0 - See [LICENSE](LICENSE) for details.
+
+license; see [LICENSE](LICENSE) for more information.
+
+## Contact
+
+- **Author**: Tyler Zervas
+- **GitLab**: [tzervas](https://github.com/tzervas)
+- **X**: [@vec_wt_tech](https://x.com/vec_wt_tech)
+
 
 ## 📚 References
+
 - [Google ADK](https://github.com/google/adk-python)
 - [Anthropic MCP SDK](https://github.com/anthropics/anthropic-sdk-python)
 
