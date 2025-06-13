@@ -17,17 +17,22 @@
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-    - [Basic Example](#basic-example)
-    - [Advanced Usage](#advanced-usage)
+   - [Basic Example](#basic-example)
+   - [Advanced Usage](#advanced-usage)
 4. [Features](#features)
 5. [Configuration](#configuration)
 6. [Testing](#testing)
-7. [Contribution](#contribution)
-8. [License](#license)
-9. [Contact](#contact)
-10. [Troubleshooting](#troubleshooting)
-11. [Acknowledgments](#acknowledgments)
-12. [References](#references)
+7. [Development Setup](#development-setup)
+8. [Proposed Implementation](#proposed-implementation)
+   - [Proof of Concept (POC)](#proof-of-concept-poc)
+   - [Minimum Viable Product (MVP)](#minimum-viable-product-mvp)
+9. [Security Best Practices](#security-best-practices)
+10. [Contribution](#contribution)
+11. [License](#license)
+12. [Contact](#contact)
+13. [Troubleshooting](#troubleshooting)
+14. [Acknowledgments](#acknowledgments)
+15. [References](#references)
 
 ## Description
 
@@ -231,7 +236,7 @@ async def adk_call(request: Request):
 
 ## Contribution
 
-Contributions are welcome! Please see the [Developer Guide](docs/devel-docs/developer_guide.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome! Please see the [Developer Guide](docs/developer_guide.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
