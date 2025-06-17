@@ -8,7 +8,7 @@ The Aphelion Agent Security Framework is a lightweight, modular security framewo
 
 ### Prerequisites
 
-- **Python**: 3.11 or higher
+- **Python**: 3.12 or higher
 - **UV**: For dependency management (recommended over pip for performance)
 - **Git**: For version control
 
