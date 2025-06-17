@@ -86,5 +86,5 @@ pytest
 
 ### Community Standards
 
-- Be **respectful** and **inclusive** in all interactions.
+- Be **respectful** and **courteous** in all interactions.
 - Follow the project's [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a positive community.
