@@ -3,7 +3,7 @@
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-import casbin
+import casbin # Reverted to casbin
 
 from aphelion.authz.casbin_enforcer import (
     init_enforcer,
@@ -86,13 +86,13 @@ def test_init_enforcer_default_paths(default_model_file, default_policy_file):
     with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):
         with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):
             enforcer = init_enforcer()
-            assert isinstance(enforcer, casbin.Enforcer)
+            assert isinstance(enforcer, casbin.Enforcer) # Reverted to casbin.Enforcer
             assert enforcer is get_enforcer() # Should return the same instance
 
 def test_init_enforcer_custom_paths(temp_model_file: Path, temp_policy_file: Path):
     """Test enforcer initialization with custom model and policy files."""
     enforcer = init_enforcer(model_path=temp_model_file, policy_adapter=temp_policy_file)
-    assert isinstance(enforcer, casbin.Enforcer)
+    assert isinstance(enforcer, casbin.Enforcer) # Reverted to casbin.Enforcer
     # Check if it loaded the custom policy
     assert enforcer.enforce("test_admin", "resource1", "read") is True
     assert enforcer.enforce("alice_test", "resource1", "write") is True # via role
@@ -124,7 +124,7 @@ def test_get_enforcer_initializes_if_none(default_model_file, default_policy_fil
     with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):
         with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):
             enforcer = get_enforcer()
-            assert isinstance(enforcer, casbin.Enforcer)
+            assert isinstance(enforcer, casbin.Enforcer) # Reverted to casbin.Enforcer
             # Post-condition: The target module's _enforcer should now be the initialized enforcer
             assert ce_module._enforcer is not None
             assert ce_module._enforcer is enforcer
