@@ -3,32 +3,20 @@
 import jwt
 import time
 from datetime import timedelta, timezone, datetime
-from typing import Dict, Any, Optional, Union
-from dataclasses import dataclass, field
+from typing import Dict, Any, Optional, Union, Set
 
-# --- Configuration ---
-@dataclass
-class JWTConfig:
-    """Configuration for JWT generation and validation."""
-    secret_key: str = "your-default-super-secret-key"  # IMPORTANT: Change this in production!
-    algorithm: str = "HS256"
-    access_token_expire_minutes: int = 30
-    refresh_token_expire_days: int = 7
-    # Token revocation list (can be replaced with a more robust solution like Redis)
-    # For now, a simple in-memory set for demonstration.
-    # In a real app, this needs to be persistent and shared across instances.
-    revoked_tokens: set[str] = field(default_factory=set)
+# Import the centralized JWTConfigModel and config getter
+from aphelion.config import JWTConfigModel, get_config
 
 
-# Global config instance (can be replaced by a proper config management system)
-# This is a placeholder. Real config should be loaded securely.
-# Ticket #3: Configuration Management System will address this.
-_jwt_config = JWTConfig()
+# --- State for Revoked Tokens (In-Memory) ---
+# This is a simple in-memory set for demonstration of revocation.
+# In a production system, this should be replaced by a persistent,
+# shared store (e.g., Redis, a database table with TTL).
+# This state is module-level and not part of JWTConfigModel directly,
+# as JWTConfigModel is for static configuration.
+_revoked_tokens_store: Set[str] = set()
 
-def configure_jwt(config: JWTConfig):
-    """Allows global JWT configuration to be updated."""
-    global _jwt_config
-    _jwt_config = config
 
 # --- Custom Exceptions ---
 class MissingTokenError(Exception):
@@ -59,12 +47,13 @@ def _create_token(
     """
     to_encode = data.copy()
     expire_at = datetime.now(timezone.utc) + expires_delta
+    jwt_cfg = get_config().jwt
 
     # Standard claims
     to_encode.update({
         "exp": expire_at,
         "iat": datetime.now(timezone.utc),
-        "iss": "aphelion_security_framework", # Issuer
+        "iss": "aphelion_security_framework", # Issuer - could also be configurable
         # "aud": "aphelion_protected_resource", # Audience - can be specific
         "type": token_type, # Custom claim for token type (access/refresh)
     })
@@ -75,8 +64,8 @@ def _create_token(
 
     encoded_jwt = jwt.encode(
         to_encode,
-        _jwt_config.secret_key,
-        algorithm=_jwt_config.algorithm
+        jwt_cfg.secret_key.get_secret_value(), # Use .get_secret_value() for SecretStr
+        algorithm=jwt_cfg.algorithm
     )
     return encoded_jwt
 
@@ -89,8 +78,9 @@ def create_access_token(subject: Union[str, Any], additional_claims: Optional[Di
     """
     if additional_claims is None:
         additional_claims = {}
+    jwt_cfg = get_config().jwt
 
-    expires_delta = timedelta(minutes=_jwt_config.access_token_expire_minutes)
+    expires_delta = timedelta(minutes=jwt_cfg.access_token_expire_minutes)
     data_to_encode = {"sub": str(subject), **additional_claims}
     return _create_token(data_to_encode, expires_delta, token_type="access")
 
@@ -100,7 +90,8 @@ def create_refresh_token(subject: Union[str, Any]) -> str:
     :param subject: Identifier for the token subject (e.g., user ID, agent ID).
     :return: Encoded JWT string.
     """
-    expires_delta = timedelta(days=_jwt_config.refresh_token_expire_days)
+    jwt_cfg = get_config().jwt
+    expires_delta = timedelta(days=jwt_cfg.refresh_token_expire_days)
     data_to_encode = {"sub": str(subject)}
     # Refresh tokens typically have fewer claims and longer expiry
     return _create_token(data_to_encode, expires_delta, token_type="refresh")
@@ -120,20 +111,18 @@ def decode_token(token: str) -> Dict[str, Any]:
     """
     if not token:
         raise MissingTokenError("Token is missing.")
+    jwt_cfg = get_config().jwt
 
     try:
         payload = jwt.decode(
             token,
-            _jwt_config.secret_key,
-            algorithms=[_jwt_config.algorithm],
+            jwt_cfg.secret_key.get_secret_value(),
+            algorithms=[jwt_cfg.algorithm],
             options={"require": ["exp", "iat", "sub", "type"]} # Require standard claims
         )
 
-        # Check if token is revoked (simple in-memory check for now)
-        # A more robust solution (e.g., Redis) would be needed for production.
-        # The 'jti' (JWT ID) claim would be useful here if we add it during creation.
-        # For now, revoking the whole token string if it was e.g. a refresh token.
-        if token in _jwt_config.revoked_tokens:
+        # Check if token is revoked using the module-level store
+        if token in _revoked_tokens_store: # Check against _revoked_tokens_store
             raise RevokedTokenError("Token has been revoked.")
 
         return payload
@@ -160,37 +149,51 @@ def validate_token(token: str, expected_token_type: Optional[str] = "access") ->
         )
 
     # Additional checks can be added here, e.g., audience, issuer if configured.
-    # if payload.get("iss") != _jwt_config.issuer:
+    # jwt_cfg = get_config().jwt # If needed for issuer/audience checks
+    # if payload.get("iss") != jwt_cfg.issuer: # Assuming issuer is part of JWTConfigModel
     #     raise InvalidTokenError("Invalid token issuer.")
 
     return payload
 
-# --- Token Revocation (Simple Example) ---
+# --- Token Revocation (Simple Example using module-level store) ---
 def revoke_token(token_jti_or_full_token: str) -> None:
     """
-    Adds a token's JTI (JWT ID) or the full token string to the revocation list.
+    Adds a token's JTI (JWT ID) or the full token string to the in-memory revocation list.
     NOTE: This is a very basic in-memory revocation. Not suitable for production
     without a persistent and shared revocation list (e.g., Redis, database).
-    For full tokens, this primarily makes sense for refresh tokens that might be stored.
-    Access tokens are short-lived and usually not explicitly revoked this way unless
-    they have a JTI.
     """
-    _jwt_config.revoked_tokens.add(token_jti_or_full_token)
+    _revoked_tokens_store.add(token_jti_or_full_token)
 
 def is_token_revoked(token_jti_or_full_token: str) -> bool:
-    """Checks if a token (by JTI or full string) is in the revocation list."""
-    return token_jti_or_full_token in _jwt_config.revoked_tokens
+    """Checks if a token (by JTI or full string) is in the in-memory revocation list."""
+    return token_jti_or_full_token in _revoked_tokens_store
+
+def clear_revoked_tokens_store() -> None:
+    """Clears all tokens from the in-memory revocation list. Useful for testing."""
+    _revoked_tokens_store.clear()
+
 
 if __name__ == "__main__":
     # Basic usage example (primarily for quick testing during development)
-    # In a real app, JWTConfig would be loaded from a secure configuration source.
+    # This will use the configuration loading mechanism (dummy files created in config.py's main)
 
-    # Configure (optional, uses defaults if not called)
-    # For testing, we might use a fixed secret.
-    test_config = JWTConfig(secret_key="test-secret", access_token_expire_minutes=1, refresh_token_expire_days=1)
-    configure_jwt(test_config)
+    # Ensure config is loaded (normally happens on first get_config() call)
+    # For this main block, let's explicitly load a test config if needed,
+    # or rely on the default loading mechanism.
+    # For jwt.py's own __main__, it's better if it can run somewhat independently
+    # for basic jwt checks without complex config file setups.
+    # However, now it depends on get_config().
 
-    print(f"Using JWT secret: '{_jwt_config.secret_key}' (for testing only!)")
+    # To make this __main__ runnable for quick checks, we might need a way to
+    # use a very default config if the main config system isn't fully set up,
+    # or ensure that get_config() provides usable defaults.
+    # The get_config() already provides defaults if files are missing.
+
+    app_config = get_config() # Load config using default mechanism
+    jwt_cfg_for_main = app_config.jwt
+
+    print(f"Using JWT secret: '{jwt_cfg_for_main.secret_key.get_secret_value()}' (from config)")
+    print(f"Access token expiry: {jwt_cfg_for_main.access_token_expire_minutes} minutes")
 
     # Create tokens
     user_id = "user123"
