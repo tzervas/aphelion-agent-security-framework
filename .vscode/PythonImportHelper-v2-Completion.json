@@ -833,6 +833,38 @@
         "documentation": {}
     },
     {
+        "label": "given",
+        "importPath": "hypothesis",
+        "description": "hypothesis",
+        "isExtraImport": true,
+        "detail": "hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "strategies",
+        "importPath": "hypothesis",
+        "description": "hypothesis",
+        "isExtraImport": true,
+        "detail": "hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "hypothesis",
+        "description": "hypothesis",
+        "isExtraImport": true,
+        "detail": "hypothesis",
+        "documentation": {}
+    },
+    {
+        "label": "HealthCheck",
+        "importPath": "hypothesis",
+        "description": "hypothesis",
+        "isExtraImport": true,
+        "detail": "hypothesis",
+        "documentation": {}
+    },
+    {
         "label": "get_greeting",
         "importPath": "aphelion.main",
         "description": "aphelion.main",
@@ -2368,6 +2400,51 @@
         "description": "tests.auth.test_jwt",
         "peekOfCode": "DEFAULT_TEST_SECRET_KEY = \"test-secret-key-for-pytest\"\n@pytest.fixture\ndef mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,\n        refresh_token_expire_days=1,\n    )",
         "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "GIVEN_FUNCTION_TO_FUZZ_DOES_NOT_YET_EXIST_SO_THIS_IS_A_PLACEHOLDER",
+        "kind": 2,
+        "importPath": "tests.security.test_fuzzing_examples",
+        "description": "tests.security.test_fuzzing_examples",
+        "peekOfCode": "def GIVEN_FUNCTION_TO_FUZZ_DOES_NOT_YET_EXIST_SO_THIS_IS_A_PLACEHOLDER(input_string: str) -> str:\n    \"\"\"\n    A placeholder function. In a real scenario, this would be a function\n    from the main codebase that processes input and should be resilient.\n    Example: It might try to parse a complex string or sanitize it.\n    \"\"\"\n    if input_string is None:\n        raise TypeError(\"Input cannot be None\")\n    # Simple example: just returns the string, or a modified version.\n    # A real function might have complex logic prone to errors with weird inputs.",
+        "detail": "tests.security.test_fuzzing_examples",
+        "documentation": {}
+    },
+    {
+        "label": "test_placeholder_fuzz_example",
+        "kind": 2,
+        "importPath": "tests.security.test_fuzzing_examples",
+        "description": "tests.security.test_fuzzing_examples",
+        "peekOfCode": "def test_placeholder_fuzz_example(sample_text: str):\n    \"\"\"\n    Example of a Hypothesis test. This would target a real function\n    in the Aphelion framework that needs to be robust against varied string inputs.\n    \"\"\"\n    try:\n        result = GIVEN_FUNCTION_TO_FUZZ_DOES_NOT_YET_EXIST_SO_THIS_IS_A_PLACEHOLDER(sample_text)\n        assert isinstance(result, str)\n        if sample_text is not None: # Guarding due to st.text() possibly generating complex objects if not careful\n            assert sample_text in result",
+        "detail": "tests.security.test_fuzzing_examples",
+        "documentation": {}
+    },
+    {
+        "label": "simple_string_processor",
+        "kind": 2,
+        "importPath": "tests.security.test_fuzzing_examples",
+        "description": "tests.security.test_fuzzing_examples",
+        "peekOfCode": "def simple_string_processor(s: str) -> str:\n    if not isinstance(s, str):\n        # This case should ideally not be hit if st.text() is used,\n        # as it generates strings. But good for robustness.\n        raise TypeError(\"Input must be a string\")\n    return s.lower() # Example processing\n@settings(suppress_health_check=[HealthCheck.too_slow], deadline=None)\n@given(st.text())\ndef test_simple_string_processor_does_not_crash(text_input: str):\n    \"\"\"",
+        "detail": "tests.security.test_fuzzing_examples",
+        "documentation": {}
+    },
+    {
+        "label": "test_simple_string_processor_does_not_crash",
+        "kind": 2,
+        "importPath": "tests.security.test_fuzzing_examples",
+        "description": "tests.security.test_fuzzing_examples",
+        "peekOfCode": "def test_simple_string_processor_does_not_crash(text_input: str):\n    \"\"\"\n    Tests that simple_string_processor runs without unhandled exceptions\n    for any text input provided by Hypothesis.\n    \"\"\"\n    processed_text = simple_string_processor(text_input)\n    assert isinstance(processed_text, str)\n    assert processed_text == text_input.lower()\n@settings(suppress_health_check=[HealthCheck.too_slow], deadline=None)\n@given(st.integers())",
+        "detail": "tests.security.test_fuzzing_examples",
+        "documentation": {}
+    },
+    {
+        "label": "test_another_placeholder_fuzz_integers",
+        "kind": 2,
+        "importPath": "tests.security.test_fuzzing_examples",
+        "description": "tests.security.test_fuzzing_examples",
+        "peekOfCode": "def test_another_placeholder_fuzz_integers(num_input: int):\n    \"\"\"Another example with integers.\"\"\"\n    assert isinstance(num_input, int)\n    # In a real test, call a function with num_input and assert properties.\n    pass",
+        "detail": "tests.security.test_fuzzing_examples",
         "documentation": {}
     },
     {

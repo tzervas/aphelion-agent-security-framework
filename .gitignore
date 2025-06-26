@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+
+# ignore .trunk
+.trunk
 
 # C extensions
 *.so
