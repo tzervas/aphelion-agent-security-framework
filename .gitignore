@@ -200,3 +200,4 @@ cython_debug/
 # specific documentation
 /docs/pitches
 /docs/dev_guidance
+.vscode/PythonImportHelper-v2-Completion.json
