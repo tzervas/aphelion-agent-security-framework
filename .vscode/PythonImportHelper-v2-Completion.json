@@ -18,12 +18,12 @@
         "documentation": {}
     },
     {
-        "label": "math,",
+        "label": "math",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "math.",
-        "description": "math.",
-        "detail": "math.",
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -63,15 +63,24 @@
         "documentation": {}
     },
     {
-        "label": "Object",
-        "importPath": "my_lib",
-        "description": "my_lib",
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "detail": "my_lib",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "Object3",
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Object",
         "importPath": "my_lib",
         "description": "my_lib",
         "isExtraImport": true,
@@ -87,20 +96,11 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "Object3",
+        "importPath": "my_lib",
+        "description": "my_lib",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "lib15",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
+        "detail": "my_lib",
         "documentation": {}
     },
     {
@@ -216,19 +216,11 @@
         "documentation": {}
     },
     {
-        "label": "lib3",
+        "label": "lib15",
         "importPath": "third_party",
         "description": "third_party",
         "isExtraImport": true,
         "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "absolute_import",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
         "documentation": {}
     },
     {
@@ -308,7 +300,7 @@
         "documentation": {}
     },
     {
-        "label": "Iterator",
+        "label": "Enum",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -316,7 +308,7 @@
         "documentation": {}
     },
     {
-        "label": "Union",
+        "label": "Iterator",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -332,7 +324,7 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -356,7 +348,7 @@
         "documentation": {}
     },
     {
-        "label": "Iterator",
+        "label": "Enum",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -364,7 +356,7 @@
         "documentation": {}
     },
     {
-        "label": "Union",
+        "label": "Iterator",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -380,7 +372,95 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -397,12 +477,359 @@
         "documentation": {}
     },
     {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CONFIG_FILE",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
         "label": "pytest",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytest",
         "description": "pytest",
         "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decode_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# JWTConfig",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# This is now JWTConfigModel from aphelion.config\r\n    # configure_jwt",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# This is removed\r\n    InvalidTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ExpiredTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "MissingTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "RevokedTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "is_token_revoked",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "clear_revoked_tokens_store # New helper for test cleanup\r\n    # _jwt_config",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
         "documentation": {}
     },
     {
@@ -1093,7 +1520,7 @@
         "kind": 2,
         "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
         "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(ruff/F401)\nimport json\nclass NoDocstring(object):\n    def __init__(self, arg1):",
+        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\n# trunk-ignore(ruff/F401)\nimport json\nimport sys\nclass NoDocstring(object):\n    def __init__(self, arg1):",
         "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
         "documentation": {}
     },
@@ -1566,12 +1993,507 @@
         "documentation": {}
     },
     {
+        "label": "MissingTokenError",
+        "kind": 6,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "class MissingTokenError(Exception):\n    \"\"\"Raised when a token is expected but not found.\"\"\"\n    pass\nclass InvalidTokenError(Exception):\n    \"\"\"Raised when a token is invalid (e.g., malformed, wrong signature).\"\"\"\n    pass\nclass ExpiredTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has expired.\"\"\"\n    pass\nclass RevokedTokenError(InvalidTokenError):",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTokenError",
+        "kind": 6,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "class InvalidTokenError(Exception):\n    \"\"\"Raised when a token is invalid (e.g., malformed, wrong signature).\"\"\"\n    pass\nclass ExpiredTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has expired.\"\"\"\n    pass\nclass RevokedTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has been revoked.\"\"\"\n    pass\n# --- Token Creation ---",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ExpiredTokenError",
+        "kind": 6,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "class ExpiredTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has expired.\"\"\"\n    pass\nclass RevokedTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has been revoked.\"\"\"\n    pass\n# --- Token Creation ---\ndef _create_token(\n    data: Dict[str, Any],\n    expires_delta: timedelta,",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "RevokedTokenError",
+        "kind": 6,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "class RevokedTokenError(InvalidTokenError):\n    \"\"\"Raised when a token has been revoked.\"\"\"\n    pass\n# --- Token Creation ---\ndef _create_token(\n    data: Dict[str, Any],\n    expires_delta: timedelta,\n    token_type: str = \"access\"\n) -> str:\n    \"\"\"",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def create_access_token(subject: Union[str, Any], additional_claims: Optional[Dict[str, Any]] = None) -> str:\n    \"\"\"\n    Creates an access token.\n    :param subject: Identifier for the token subject (e.g., user ID, agent ID).\n    :param additional_claims: Optional dictionary of additional claims to include.\n    :return: Encoded JWT string.\n    \"\"\"\n    if additional_claims is None:\n        additional_claims = {}\n    jwt_cfg = get_config().jwt",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def create_refresh_token(subject: Union[str, Any]) -> str:\n    \"\"\"\n    Creates a refresh token.\n    :param subject: Identifier for the token subject (e.g., user ID, agent ID).\n    :return: Encoded JWT string.\n    \"\"\"\n    jwt_cfg = get_config().jwt\n    expires_delta = timedelta(days=jwt_cfg.refresh_token_expire_days)\n    data_to_encode = {\"sub\": str(subject)}\n    # Refresh tokens typically have fewer claims and longer expiry",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decode_token",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def decode_token(token: str) -> Dict[str, Any]:\n    \"\"\"\n    Decodes a JWT.\n    Raises InvalidTokenError or ExpiredTokenError on failure.\n    :param token: The JWT string to decode.\n    :return: The decoded payload as a dictionary.\n    :raises MissingTokenError: If the token is None or empty.\n    :raises ExpiredTokenError: If the token has expired.\n    :raises InvalidTokenError: If the token is malformed, has an invalid signature, or other JWT errors.\n    :raises RevokedTokenError: If the token is in the revocation list.",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def validate_token(token: str, expected_token_type: Optional[str] = \"access\") -> Dict[str, Any]:\n    \"\"\"\n    Validates a token and checks its type.\n    :param token: The JWT string to validate.\n    :param expected_token_type: The expected type of the token (e.g., \"access\", \"refresh\").\n                                If None, type check is skipped.\n    :return: The decoded payload if the token is valid.\n    :raises InvalidTokenError: If the token type does not match or other validation issues.\n    \"\"\"\n    payload = decode_token(token) # This already handles expiry, signature, etc.",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_token",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def revoke_token(token_jti_or_full_token: str) -> None:\n    \"\"\"\n    Adds a token's JTI (JWT ID) or the full token string to the in-memory revocation list.\n    NOTE: This is a very basic in-memory revocation. Not suitable for production\n    without a persistent and shared revocation list (e.g., Redis, database).\n    \"\"\"\n    _revoked_tokens_store.add(token_jti_or_full_token)\ndef is_token_revoked(token_jti_or_full_token: str) -> bool:\n    \"\"\"Checks if a token (by JTI or full string) is in the in-memory revocation list.\"\"\"\n    return token_jti_or_full_token in _revoked_tokens_store",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "is_token_revoked",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def is_token_revoked(token_jti_or_full_token: str) -> bool:\n    \"\"\"Checks if a token (by JTI or full string) is in the in-memory revocation list.\"\"\"\n    return token_jti_or_full_token in _revoked_tokens_store\ndef clear_revoked_tokens_store() -> None:\n    \"\"\"Clears all tokens from the in-memory revocation list. Useful for testing.\"\"\"\n    _revoked_tokens_store.clear()\nif __name__ == \"__main__\":\n    # Basic usage example (primarily for quick testing during development)\n    # This will use the configuration loading mechanism (dummy files created in config.py's main)\n    # Ensure config is loaded (normally happens on first get_config() call)",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "clear_revoked_tokens_store",
+        "kind": 2,
+        "importPath": "src.aphelion.auth.jwt",
+        "description": "src.aphelion.auth.jwt",
+        "peekOfCode": "def clear_revoked_tokens_store() -> None:\n    \"\"\"Clears all tokens from the in-memory revocation list. Useful for testing.\"\"\"\n    _revoked_tokens_store.clear()\nif __name__ == \"__main__\":\n    # Basic usage example (primarily for quick testing during development)\n    # This will use the configuration loading mechanism (dummy files created in config.py's main)\n    # Ensure config is loaded (normally happens on first get_config() call)\n    # For this main block, let's explicitly load a test config if needed,\n    # or rely on the default loading mechanism.\n    # For jwt.py's own __main__, it's better if it can run somewhat independently",
+        "detail": "src.aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "JWTConfigModel",
+        "kind": 6,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "class JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.\n    # This might not be directly configured via YAML/env for a simple set.\n    # It's more of a runtime state that might be backed by Redis/DB.\n    # For now, keeping it out of direct config loading, will be managed by auth module.",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingConfigModel",
+        "kind": 6,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "class LoggingConfigModel(BaseModel):\n    \"\"\"Configuration for logging.\"\"\"\n    level: str = Field(default=\"INFO\")\n    file: Optional[Path] = Field(default=None) # e.g., BASE_DIR / \"logs\" / \"aphelion.log\"\n    # Example: format: str = Field(default=\"%(asctime)s - %(name)s - %(levelname)s - %(message)s\")\n    @field_validator('level')\n    @classmethod\n    def valid_log_level(cls, value: str) -> str:\n        supported_levels = {\"DEBUG\", \"INFO\", \"WARNING\", \"ERROR\", \"CRITICAL\"}\n        if value.upper() not in supported_levels:",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfigModel",
+        "kind": 6,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "class AppConfigModel(BaseSettings):\n    \"\"\"\n    Main application settings model.\n    Loads settings from environment variables, .env files, and YAML files.\n    Environment variables take precedence.\n    \"\"\"\n    model_config = SettingsConfigDict(\n        env_prefix='APHELION_',  # Environment variables should be prefixed (e.g., APHELION_JWT__SECRET_KEY)\n        env_nested_delimiter='__', # For nested models like JWTConfigModel\n        env_file=BASE_DIR / '.env',       # Load from .env file if present",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
+        "kind": 2,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "def get_config(config_file_path: Optional[Union[str, Path]] = None) -> AppConfigModel:\n    \"\"\"\n    Retrieves the global configuration instance.\n    Loads it if it hasn't been loaded yet.\n    Allows specifying a custom config file path for the initial load.\n    \"\"\"\n    global _app_config\n    if _app_config is None:\n        # Determine the config file to use\n        # Env var APHELION_CONFIG_FILE can override the default path",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent.parent # Project root\nDEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_CONFIG_FILE",
+        "kind": 5,
+        "importPath": "src.aphelion.config",
+        "description": "src.aphelion.config",
+        "peekOfCode": "DEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.\n    # This might not be directly configured via YAML/env for a simple set.",
+        "detail": "src.aphelion.config",
+        "documentation": {}
+    },
+    {
         "label": "get_greeting",
         "kind": 2,
         "importPath": "src.aphelion.main",
         "description": "src.aphelion.main",
         "peekOfCode": "def get_greeting() -> str:\n    \"\"\"\n    Returns a simple greeting string.\n    This is a placeholder function.\n    \"\"\"\n    return \"Hello from Aphelion!\"\nif __name__ == \"__main__\":\n    print(get_greeting())",
         "detail": "src.aphelion.main",
+        "documentation": {}
+    },
+    {
+        "label": "mocked_jwt_config_model",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,\n        refresh_token_expire_days=1,\n    )\n@pytest.fixture(autouse=True)\ndef mock_aphelion_config_for_jwt_tests(mocked_jwt_config_model: JWTConfigModel):",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "mock_aphelion_config_for_jwt_tests",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def mock_aphelion_config_for_jwt_tests(mocked_jwt_config_model: JWTConfigModel):\n    \"\"\"\n    Patches get_config() within the aphelion.auth.jwt module to return a\n    test-specific AppConfigModel containing the mocked_jwt_config_model.\n    Also clears the JWT revocation store before and after each test.\n    \"\"\"\n    clear_revoked_tokens_store() # Clear before test runs\n    # Create a full AppConfigModel instance, embedding the mocked JWT config\n    test_app_config = AppConfigModel(jwt=mocked_jwt_config_model)\n    # The crucial part is to patch 'get_config' in the *module where it's used* (aphelion.auth.jwt)",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_access_token_default_claims",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_create_access_token_default_claims():\n    token = create_access_token(subject=TEST_SUBJECT)\n    payload = decode_token(token) # Use internal decode for direct payload inspection\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"type\"] == \"access\"\n    assert \"exp\" in payload\n    assert \"iat\" in payload\n    assert \"iss\" in payload\n    assert payload[\"iss\"] == \"aphelion_security_framework\"\ndef test_create_access_token_with_additional_claims():",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_access_token_with_additional_claims",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_create_access_token_with_additional_claims():\n    token = create_access_token(subject=TEST_SUBJECT, additional_claims=TEST_ADDITIONAL_CLAIMS)\n    payload = decode_token(token)\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"role\"] == TEST_ADDITIONAL_CLAIMS[\"role\"]\n    assert payload[\"scope\"] == TEST_ADDITIONAL_CLAIMS[\"scope\"]\n    assert payload[\"type\"] == \"access\"\ndef test_create_refresh_token():\n    token = create_refresh_token(subject=TEST_SUBJECT)\n    payload = decode_token(token)",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_refresh_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_create_refresh_token():\n    token = create_refresh_token(subject=TEST_SUBJECT)\n    payload = decode_token(token)\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"type\"] == \"refresh\"\n    assert \"exp\" in payload\n    assert \"iat\" in payload\n    # Refresh tokens should not contain additional app-specific claims by default\n    assert \"role\" not in payload\ndef test_validate_valid_access_token():",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_valid_access_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_valid_access_token():\n    token = create_access_token(subject=TEST_SUBJECT, additional_claims=TEST_ADDITIONAL_CLAIMS)\n    payload = validate_token(token, expected_token_type=\"access\")\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"role\"] == TEST_ADDITIONAL_CLAIMS[\"role\"]\ndef test_validate_valid_refresh_token():\n    token = create_refresh_token(subject=TEST_SUBJECT)\n    payload = validate_token(token, expected_token_type=\"refresh\")\n    assert payload[\"sub\"] == TEST_SUBJECT\ndef test_validate_token_no_type_check():",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_valid_refresh_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_valid_refresh_token():\n    token = create_refresh_token(subject=TEST_SUBJECT)\n    payload = validate_token(token, expected_token_type=\"refresh\")\n    assert payload[\"sub\"] == TEST_SUBJECT\ndef test_validate_token_no_type_check():\n    token = create_access_token(subject=TEST_SUBJECT)\n    payload = validate_token(token, expected_token_type=None) # Skip type check\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"type\"] == \"access\"\ndef test_decode_expired_access_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_token_no_type_check",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_token_no_type_check():\n    token = create_access_token(subject=TEST_SUBJECT)\n    payload = validate_token(token, expected_token_type=None) # Skip type check\n    assert payload[\"sub\"] == TEST_SUBJECT\n    assert payload[\"type\"] == \"access\"\ndef test_decode_expired_access_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Override the global mock for this specific test to set a past expiry\n    expired_jwt_config = mocked_jwt_config_model.model_copy(update={\"access_token_expire_minutes\": -1})\n    expired_app_config = AppConfigModel(jwt=expired_jwt_config)\n    mock_aphelion_config_for_jwt_tests.return_value = expired_app_config",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_decode_expired_access_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_decode_expired_access_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Override the global mock for this specific test to set a past expiry\n    expired_jwt_config = mocked_jwt_config_model.model_copy(update={\"access_token_expire_minutes\": -1})\n    expired_app_config = AppConfigModel(jwt=expired_jwt_config)\n    mock_aphelion_config_for_jwt_tests.return_value = expired_app_config\n    token = create_access_token(subject=TEST_SUBJECT)\n    with pytest.raises(ExpiredTokenError):\n        decode_token(token)\ndef test_validate_expired_access_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Override the global mock for this specific test for very short expiry",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_expired_access_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_expired_access_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Override the global mock for this specific test for very short expiry\n    short_expiry_jwt_config = mocked_jwt_config_model.model_copy(\n        update={\"access_token_expire_minutes\": 1/6000} # Approx 0.01 seconds\n    )\n    short_expiry_app_config = AppConfigModel(jwt=short_expiry_jwt_config)\n    mock_aphelion_config_for_jwt_tests.return_value = short_expiry_app_config\n    token_short = create_access_token(subject=\"short_lived_user\")\n    time.sleep(0.1) # Wait for 0.1 seconds, should be enough for it to expire\n    with pytest.raises(ExpiredTokenError):",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_decode_invalid_signature_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_decode_invalid_signature_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Create a token with the current (mocked) key\n    token = create_access_token(subject=TEST_SUBJECT)\n    # Now, change the config that get_config() will return for the decode step\n    # Pydantic should convert the string \"completely-different-secret\" to SecretStr\n    # Explicitly create SecretStr for the update to be certain.\n    from pydantic import SecretStr\n    wrong_key_jwt_config = mocked_jwt_config_model.model_copy(\n        update={\"secret_key\": SecretStr(\"completely-different-secret\")}\n    )",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_invalid_signature_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_invalid_signature_token(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # Create a token with the current (mocked) key\n    token = create_access_token(subject=TEST_SUBJECT)\n    # Change the config for the validation step\n    from pydantic import SecretStr\n    another_wrong_key_jwt_config = mocked_jwt_config_model.model_copy(\n        update={\"secret_key\": SecretStr(\"another-wrong-secret\")}\n    )\n    another_wrong_key_app_config = AppConfigModel(jwt=another_wrong_key_jwt_config)\n    mock_aphelion_config_for_jwt_tests.return_value = another_wrong_key_app_config",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_decode_malformed_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_decode_malformed_token():\n    malformed_token = \"this.is.not.a.jwt\"\n    with pytest.raises(InvalidTokenError) as excinfo:\n        decode_token(malformed_token)\n    # Check that our wrapper exception is raised. The specific PyJWT internal error can vary.\n    assert \"Token is invalid\" in str(excinfo.value)\ndef test_validate_malformed_token():\n    malformed_token = \"this.is.still.not.a.jwt\"\n    with pytest.raises(InvalidTokenError):\n        validate_token(malformed_token)",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_malformed_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_malformed_token():\n    malformed_token = \"this.is.still.not.a.jwt\"\n    with pytest.raises(InvalidTokenError):\n        validate_token(malformed_token)\ndef test_decode_missing_token():\n    with pytest.raises(MissingTokenError):\n        decode_token(\"\")\n    with pytest.raises(MissingTokenError):\n        decode_token(None) # type: ignore\ndef test_validate_missing_token():",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_decode_missing_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_decode_missing_token():\n    with pytest.raises(MissingTokenError):\n        decode_token(\"\")\n    with pytest.raises(MissingTokenError):\n        decode_token(None) # type: ignore\ndef test_validate_missing_token():\n    with pytest.raises(MissingTokenError):\n        validate_token(\"\")\n    with pytest.raises(MissingTokenError):\n        validate_token(None) # type: ignore",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_missing_token",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_missing_token():\n    with pytest.raises(MissingTokenError):\n        validate_token(\"\")\n    with pytest.raises(MissingTokenError):\n        validate_token(None) # type: ignore\ndef test_validate_wrong_token_type():\n    access_token = create_access_token(subject=TEST_SUBJECT)\n    with pytest.raises(InvalidTokenError) as excinfo:\n        validate_token(access_token, expected_token_type=\"refresh\")\n    assert \"Invalid token type. Expected 'refresh', got 'access'\" in str(excinfo.value)",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_validate_wrong_token_type",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_validate_wrong_token_type():\n    access_token = create_access_token(subject=TEST_SUBJECT)\n    with pytest.raises(InvalidTokenError) as excinfo:\n        validate_token(access_token, expected_token_type=\"refresh\")\n    assert \"Invalid token type. Expected 'refresh', got 'access'\" in str(excinfo.value)\n    refresh_token = create_refresh_token(subject=TEST_SUBJECT)\n    with pytest.raises(InvalidTokenError) as excinfo:\n        validate_token(refresh_token, expected_token_type=\"access\")\n    assert \"Invalid token type. Expected 'access', got 'refresh'\" in str(excinfo.value)\n# Removed test_create_token_missing_subject because create_access_token(subject=None)",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_token_revocation",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_token_revocation(): # Removed setup_jwt_config: JWTConfig argument\n    token_to_revoke1 = create_access_token(\"user_to_be_revoked_1\")\n    token_to_revoke2 = create_refresh_token(\"user_to_be_revoked_2\")\n    token_not_revoked = create_access_token(\"user_not_revoked\")\n    # Ensure tokens are initially valid and not revoked\n    assert is_token_revoked(token_to_revoke1) is False\n    validate_token(token_to_revoke1)\n    assert is_token_revoked(token_to_revoke2) is False\n    validate_token(token_to_revoke2, expected_token_type=\"refresh\")\n    assert is_token_revoked(token_not_revoked) is False",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_jwt_behavior_with_changed_config_algorithm",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_jwt_behavior_with_changed_config_algorithm(\n    mock_aphelion_config_for_jwt_tests: MagicMock,\n    mocked_jwt_config_model: JWTConfigModel\n):\n    # 1. Create token with default HS256 algorithm (from main fixture)\n    token_hs256 = create_access_token(TEST_SUBJECT)\n    # Validate it works with HS256\n    payload_hs256 = validate_token(token_hs256)\n    assert payload_hs256[\"sub\"] == TEST_SUBJECT\n    # 2. Change the live JWT config to use HS512 for subsequent operations",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_token_nbf_claim",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_token_nbf_claim(mock_aphelion_config_for_jwt_tests: MagicMock, mocked_jwt_config_model: JWTConfigModel):\n    # \"nbf\" (Not Before) claim\n    # For this, we need to inject 'nbf' into the token creation.\n    # Let's assume _create_token could be extended or we craft it manually.\n    nbf_time = int(time.time()) + 300  # Token not valid for 300 seconds\n    iat_time = int(time.time())\n    # Use the mocked_jwt_config_model passed to the test\n    exp_time = iat_time + mocked_jwt_config_model.access_token_expire_minutes * 60\n    custom_payload = {\n        \"sub\": TEST_SUBJECT,",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "test_default_test_secret_is_not_app_placeholder",
+        "kind": 2,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "def test_default_test_secret_is_not_app_placeholder(mock_aphelion_config_for_jwt_tests: MagicMock):\n    # The mock_aphelion_config_for_jwt_tests fixture sets up get_config() to return\n    # an AppConfigModel containing a JWTConfigModel with DEFAULT_TEST_SECRET_KEY.\n    # We access this through the mock of get_config if we want to inspect its return_value,\n    # or by calling get_config() itself (which will return the mocked value).\n    from aphelion.auth.jwt import get_config # Import it here to ensure it's the one from jwt module\n    current_jwt_config = get_config().jwt # This will use the mocked get_config\n    assert current_jwt_config.secret_key.get_secret_value() == DEFAULT_TEST_SECRET_KEY\n    assert current_jwt_config.secret_key.get_secret_value() != \"your-default-super-secret-key-please-change\"\n    # Also check the algorithm to be sure we have the right test config",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_SUBJECT",
+        "kind": 5,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "TEST_SUBJECT = \"test_user_123\"\nTEST_ADDITIONAL_CLAIMS = {\"role\": \"tester\", \"scope\": \"read:data\"}\nDEFAULT_TEST_SECRET_KEY = \"test-secret-key-for-pytest\"\n@pytest.fixture\ndef mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_ADDITIONAL_CLAIMS",
+        "kind": 5,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "TEST_ADDITIONAL_CLAIMS = {\"role\": \"tester\", \"scope\": \"read:data\"}\nDEFAULT_TEST_SECRET_KEY = \"test-secret-key-for-pytest\"\n@pytest.fixture\ndef mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,\n        refresh_token_expire_days=1,",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TEST_SECRET_KEY",
+        "kind": 5,
+        "importPath": "tests.auth.test_jwt",
+        "description": "tests.auth.test_jwt",
+        "peekOfCode": "DEFAULT_TEST_SECRET_KEY = \"test-secret-key-for-pytest\"\n@pytest.fixture\ndef mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,\n        refresh_token_expire_days=1,\n    )",
+        "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "setup_module",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def setup_module(module):\n    \"\"\"Save original environment variables that might be modified by tests.\"\"\"\n    vars_to_save = [\n        \"APHELION_APP_NAME\",\n        \"APHELION_DEBUG_MODE\",\n        \"APHELION_JWT__SECRET_KEY\",\n        \"APHELION_JWT__ALGORITHM\",\n        \"APHELION_JWT__ACCESS_TOKEN_EXPIRE_MINUTES\",\n        \"APHELION_LOGGING__LEVEL\",\n        \"APHELION_CONFIG_FILE\" # If used to redirect config loading globally",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "teardown_module",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def teardown_module(module):\n    \"\"\"Restore original environment variables.\"\"\"\n    for var_name, value in ORIGINAL_ENV_VARS.items():\n        os.environ[var_name] = value\n    # Clean up any env vars set by tests that weren't originally there\n    test_set_vars = [\n        \"APHELION_APP_NAME\", \"APHELION_DEBUG_MODE\", \"APHELION_JWT__SECRET_KEY\",\n        \"APHELION_JWT__ALGORITHM\", \"APHELION_JWT__ACCESS_TOKEN_EXPIRE_MINUTES\",\n        \"APHELION_LOGGING__LEVEL\", \"APHELION_CONFIG_FILE\"\n    ]",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "reset_global_config_and_env",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def reset_global_config_and_env(monkeypatch):\n    \"\"\"\n    Resets the global _app_config in aphelion.config to None before each test,\n    and cleans up specific environment variables set by tests.\n    \"\"\"\n    # Reset the internal _app_config variable in the config module\n    # This forces get_config() to reload in each test if called.\n    with patch('aphelion.config._app_config', None):\n        # Clean specific env vars using monkeypatch for safety\n        env_vars_to_clear = [",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "dummy_config_yaml_file",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def dummy_config_yaml_file(tmp_path: Path) -> Path:\n    \"\"\"Creates a temporary YAML config file for testing.\"\"\"\n    config_content = {\n        \"app_name\": \"Test App YAML\",\n        \"debug_mode\": True,\n        \"jwt\": {\n            \"secret_key\": \"yaml_secret\",\n            \"algorithm\": \"HS512\",\n            \"access_token_expire_minutes\": 60,\n        },",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_load_defaults_no_file_no_env",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_load_defaults_no_file_no_env():\n    \"\"\"Test that default values are loaded if no config file or env vars are set.\"\"\"\n    # Ensure no config file is pointed to by env var for this test\n    if \"APHELION_CONFIG_FILE\" in os.environ:\n        del os.environ[\"APHELION_CONFIG_FILE\"]\n    # Patch DEFAULT_CONFIG_FILE to point to a non-existent file for this test\n    with patch('aphelion.config.DEFAULT_CONFIG_FILE', BASE_DIR_FOR_TESTS / \"non_existent_config.yaml\"):\n        config = get_config()\n    assert config.app_name == \"Aphelion Security Framework\" # Default\n    assert config.debug_mode is False # Default",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_load_from_yaml_file",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_load_from_yaml_file(dummy_config_yaml_file: Path):\n    \"\"\"Test loading configuration purely from a YAML file.\"\"\"\n    config = get_config(config_file_path=dummy_config_yaml_file)\n    assert config.app_name == \"Test App YAML\"\n    assert config.debug_mode is True\n    assert config.jwt.secret_key.get_secret_value() == \"yaml_secret\"\n    assert config.jwt.algorithm == \"HS512\"\n    assert config.jwt.access_token_expire_minutes == 60\n    assert config.logging.level == \"DEBUG\"\n    assert str(config.logging.file) == \"/tmp/test_app.log\" # Path objects comparison",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_load_from_env_vars_override_yaml",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_load_from_env_vars_override_yaml(dummy_config_yaml_file: Path, monkeypatch):\n    \"\"\"Test that environment variables override YAML file settings.\"\"\"\n    monkeypatch.setenv(\"APHELION_APP_NAME\", \"Test App ENV\")\n    monkeypatch.setenv(\"APHELION_DEBUG_MODE\", \"false\") # Note: pydantic-settings handles bool conversion\n    monkeypatch.setenv(\"APHELION_JWT__SECRET_KEY\", \"env_secret\")\n    monkeypatch.setenv(\"APHELION_JWT__ALGORITHM\", \"RS256\")\n    monkeypatch.setenv(\"APHELION_LOGGING__LEVEL\", \"ERROR\")\n    config = get_config(config_file_path=dummy_config_yaml_file)\n    assert config.app_name == \"Test App ENV\"\n    assert config.debug_mode is False # Pydantic converts \"false\"",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_load_from_env_vars_only",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_load_from_env_vars_only(monkeypatch):\n    \"\"\"Test loading configuration purely from environment variables (no YAML file).\"\"\"\n    monkeypatch.setenv(\"APHELION_APP_NAME\", \"ENV App Only\")\n    monkeypatch.setenv(\"APHELION_DEBUG_MODE\", \"true\")\n    monkeypatch.setenv(\"APHELION_JWT__SECRET_KEY\", \"env_only_secret\")\n    monkeypatch.setenv(\"APHELION_JWT__ALGORITHM\", \"ES256\")\n    monkeypatch.setenv(\"APHELION_JWT__ACCESS_TOKEN_EXPIRE_MINUTES\", \"15\")\n    monkeypatch.setenv(\"APHELION_LOGGING__LEVEL\", \"CRITICAL\")\n    # Patch DEFAULT_CONFIG_FILE to a non-existent one to ensure no YAML is loaded\n    with patch('aphelion.config.DEFAULT_CONFIG_FILE', BASE_DIR_FOR_TESTS / \"no_such_config.yaml\"):",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_jwt_config_invalid_algorithm_in_yaml",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_jwt_config_invalid_algorithm_in_yaml(tmp_path: Path):\n    \"\"\"Test validation error for unsupported JWT algorithm in YAML.\"\"\"\n    config_content = {\"jwt\": {\"algorithm\": \"INVALID_ALGO\"}}\n    yaml_file = tmp_path / \"invalid_algo.yaml\"\n    with open(yaml_file, 'w') as f:\n        yaml.dump(config_content, f)\n    with pytest.raises(ValidationError) as excinfo:\n        get_config(config_file_path=yaml_file)\n    assert \"Unsupported JWT algorithm: INVALID_ALGO\" in str(excinfo.value)\ndef test_logging_config_invalid_level_in_env(monkeypatch):",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_logging_config_invalid_level_in_env",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_logging_config_invalid_level_in_env(monkeypatch):\n    \"\"\"Test validation error for invalid logging level from environment.\"\"\"\n    monkeypatch.setenv(\"APHELION_LOGGING__LEVEL\", \"SUPER_VERBOSE\")\n    with patch('aphelion.config.DEFAULT_CONFIG_FILE', BASE_DIR_FOR_TESTS / \"no_such_config.yaml\"):\n        with pytest.raises(ValidationError) as excinfo:\n            get_config()\n    assert \"Invalid log level: SUPER_VERBOSE\" in str(excinfo.value)\ndef test_secret_str_hides_secret_in_repr():\n    \"\"\"Test that SecretStr correctly hides the secret key in representations.\"\"\"\n    config = AppConfigModel(jwt=JWTConfigModel(secret_key=\"my_very_secret_key\")) # type: ignore",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_secret_str_hides_secret_in_repr",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_secret_str_hides_secret_in_repr():\n    \"\"\"Test that SecretStr correctly hides the secret key in representations.\"\"\"\n    config = AppConfigModel(jwt=JWTConfigModel(secret_key=\"my_very_secret_key\")) # type: ignore\n    assert \"my_very_secret_key\" not in repr(config.jwt.secret_key)\n    assert \"**********\" in repr(config.jwt.secret_key)\n    assert config.jwt.secret_key.get_secret_value() == \"my_very_secret_key\"\ndef test_config_file_env_variable_precedence(tmp_path: Path, monkeypatch):\n    \"\"\"Test APHELION_CONFIG_FILE environment variable overrides default path.\"\"\"\n    default_yaml_content = {\"app_name\": \"Default YAML Name\"}\n    default_config_dir = tmp_path / \"default_config_dir\"",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "test_config_file_env_variable_precedence",
+        "kind": 2,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "def test_config_file_env_variable_precedence(tmp_path: Path, monkeypatch):\n    \"\"\"Test APHELION_CONFIG_FILE environment variable overrides default path.\"\"\"\n    default_yaml_content = {\"app_name\": \"Default YAML Name\"}\n    default_config_dir = tmp_path / \"default_config_dir\"\n    default_config_dir.mkdir()\n    default_yaml_file = default_config_dir / \"aphelion_config.yaml\" # Simulates DEFAULT_CONFIG_FILE\n    with open(default_yaml_file, 'w') as f:\n        yaml.dump(default_yaml_content, f)\n    custom_yaml_content = {\"app_name\": \"Custom YAML Name via ENV Var\"}\n    custom_yaml_file = tmp_path / \"custom_path.yaml\"",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR_FOR_TESTS",
+        "kind": 5,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "BASE_DIR_FOR_TESTS = Path(__file__).resolve().parent.parent # Project root for test context\n# Store original env vars to restore them after tests\nORIGINAL_ENV_VARS = {}\ndef setup_module(module):\n    \"\"\"Save original environment variables that might be modified by tests.\"\"\"\n    vars_to_save = [\n        \"APHELION_APP_NAME\",\n        \"APHELION_DEBUG_MODE\",\n        \"APHELION_JWT__SECRET_KEY\",\n        \"APHELION_JWT__ALGORITHM\",",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "ORIGINAL_ENV_VARS",
+        "kind": 5,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "ORIGINAL_ENV_VARS = {}\ndef setup_module(module):\n    \"\"\"Save original environment variables that might be modified by tests.\"\"\"\n    vars_to_save = [\n        \"APHELION_APP_NAME\",\n        \"APHELION_DEBUG_MODE\",\n        \"APHELION_JWT__SECRET_KEY\",\n        \"APHELION_JWT__ALGORITHM\",\n        \"APHELION_JWT__ACCESS_TOKEN_EXPIRE_MINUTES\",\n        \"APHELION_LOGGING__LEVEL\",",
+        "detail": "tests.test_config",
         "documentation": {}
     },
     {
