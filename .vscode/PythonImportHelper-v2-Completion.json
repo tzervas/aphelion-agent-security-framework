@@ -1,382 +1,52 @@
 [
     {
-        "label": "subprocess",
+        "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "time",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
         "documentation": {}
     },
     {
-        "label": "math",
-        "kind": 6,
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "dill",
-        "kind": 6,
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "dill",
-        "description": "dill",
-        "detail": "dill",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "StringIO",
-        "kind": 6,
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "StringIO",
-        "description": "StringIO",
-        "detail": "StringIO",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "pands",
-        "kind": 6,
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "pands",
-        "description": "pands",
-        "detail": "pands",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "absolute_import",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "Object",
-        "importPath": "my_lib",
-        "description": "my_lib",
-        "isExtraImport": true,
-        "detail": "my_lib",
-        "documentation": {}
-    },
-    {
-        "label": "Object2",
-        "importPath": "my_lib",
-        "description": "my_lib",
-        "isExtraImport": true,
-        "detail": "my_lib",
-        "documentation": {}
-    },
-    {
-        "label": "Object3",
-        "importPath": "my_lib",
-        "description": "my_lib",
-        "isExtraImport": true,
-        "detail": "my_lib",
-        "documentation": {}
-    },
-    {
-        "label": "lib1",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib2",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib3",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib4",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib5",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib6",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib7",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib8",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib9",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib10",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib11",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib12",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib13",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib14",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "lib15",
-        "importPath": "third_party",
-        "description": "third_party",
-        "isExtraImport": true,
-        "detail": "third_party",
-        "documentation": {}
-    },
-    {
-        "label": "argparse",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "google.protobuf.descriptor_pb2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "google.protobuf.descriptor_pb2",
-        "description": "google.protobuf.descriptor_pb2",
-        "detail": "google.protobuf.descriptor_pb2",
-        "documentation": {}
-    },
-    {
-        "label": "Bar",
-        "importPath": "source",
-        "description": "source",
-        "isExtraImport": true,
-        "detail": "source",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "pairwise",
-        "importPath": "itertools",
-        "description": "itertools",
-        "isExtraImport": true,
-        "detail": "itertools",
-        "documentation": {}
-    },
-    {
-        "label": "islice",
-        "importPath": "itertools",
-        "description": "itertools",
-        "isExtraImport": true,
-        "detail": "itertools",
-        "documentation": {}
-    },
-    {
-        "label": "string",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "string",
-        "description": "string",
-        "detail": "string",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Iterator",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Callable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Iterator",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -413,6 +83,78 @@
     },
     {
         "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -468,66 +210,31 @@
         "documentation": {}
     },
     {
-        "label": "collections",
-        "kind": 6,
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "importPath": "collections",
-        "description": "collections",
-        "detail": "collections",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "jwt",
-        "kind": 6,
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "importPath": "jwt",
-        "description": "jwt",
-        "detail": "jwt",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "typing",
         "documentation": {}
     },
     {
         "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
         "importPath": "aphelion.config",
         "description": "aphelion.config",
         "isExtraImport": true,
@@ -551,7 +258,39 @@
         "documentation": {}
     },
     {
+        "label": "AppConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
         "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "JWTConfigModel",
+        "importPath": "aphelion.config",
+        "description": "aphelion.config",
+        "isExtraImport": true,
+        "detail": "aphelion.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_config",
         "importPath": "aphelion.config",
         "description": "aphelion.config",
         "isExtraImport": true,
@@ -599,28 +338,318 @@
         "documentation": {}
     },
     {
+        "label": "casbin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "casbin",
+        "description": "casbin",
+        "detail": "casbin",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "starlette.requests",
+        "description": "starlette.requests",
+        "isExtraImport": true,
+        "detail": "starlette.requests",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPMiddleware",
+        "importPath": "starlette.middleware.base",
+        "description": "starlette.middleware.base",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.base",
+        "documentation": {}
+    },
+    {
+        "label": "ASGIApp",
+        "importPath": "starlette.types",
+        "description": "starlette.types",
+        "isExtraImport": true,
+        "detail": "starlette.types",
+        "documentation": {}
+    },
+    {
+        "label": "ASGIApp",
+        "importPath": "starlette.types",
+        "description": "starlette.types",
+        "isExtraImport": true,
+        "detail": "starlette.types",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ExpiredTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "MissingTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decode_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "validate_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# JWTConfig",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# This is now JWTConfigModel from aphelion.config\r\n    # configure_jwt",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "# This is removed\r\n    InvalidTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ExpiredTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "MissingTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "RevokedTokenError",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "revoke_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "is_token_revoked",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "clear_revoked_tokens_store # New helper for test cleanup\r\n    # _jwt_config",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "aphelion.auth.jwt",
+        "description": "aphelion.auth.jwt",
+        "isExtraImport": true,
+        "detail": "aphelion.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "yaml",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "yaml",
         "description": "yaml",
         "detail": "yaml",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -729,107 +758,132 @@
         "documentation": {}
     },
     {
-        "label": "create_access_token",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
-        "label": "create_refresh_token",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
-        "label": "decode_token",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
-        "label": "validate_token",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
-        "label": "# JWTConfig",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "init_enforcer",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "# This is now JWTConfigModel from aphelion.config\r\n    # configure_jwt",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "get_enforcer",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "# This is removed\r\n    InvalidTokenError",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "enforce",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "ExpiredTokenError",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "PolicyError",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "MissingTokenError",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "NotAuthorizedError",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "RevokedTokenError",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "# Will test this if enforce is modified to raise it\r\n    DEFAULT_MODEL_PATH",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "revoke_token",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "DEFAULT_POLICY_PATH",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "is_token_revoked",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "_enforcer",
+        "importPath": "aphelion.authz.casbin_enforcer",
+        "description": "aphelion.authz.casbin_enforcer",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "aphelion.authz.casbin_enforcer",
         "documentation": {}
     },
     {
-        "label": "clear_revoked_tokens_store # New helper for test cleanup\r\n    # _jwt_config",
-        "importPath": "aphelion.auth.jwt",
-        "description": "aphelion.auth.jwt",
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
         "isExtraImport": true,
-        "detail": "aphelion.auth.jwt",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AphelionFastAPIMiddleware",
+        "importPath": "aphelion.frameworks.fastapi.middleware",
+        "description": "aphelion.frameworks.fastapi.middleware",
+        "isExtraImport": true,
+        "detail": "aphelion.frameworks.fastapi.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_subject",
+        "importPath": "aphelion.frameworks.fastapi.middleware",
+        "description": "aphelion.frameworks.fastapi.middleware",
+        "isExtraImport": true,
+        "detail": "aphelion.frameworks.fastapi.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "pytest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest_asyncio",
+        "description": "pytest_asyncio",
+        "detail": "pytest_asyncio",
         "documentation": {}
     },
     {
@@ -870,1158 +924,6 @@
         "description": "aphelion.main",
         "isExtraImport": true,
         "detail": "aphelion.main",
-        "documentation": {}
-    },
-    {
-        "label": "run_command",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "description": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "peekOfCode": "def run_command(cmd):\n    \"\"\"\n    Execute a shell command and return its exit code, stdout, and stderr.\n    Args:\n        cmd: List of command arguments to execute\n    Returns:\n        Tuple containing (return_code, stdout, stderr)\n    \"\"\"\n    try:\n        process = subprocess.Popen(",
-        "detail": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "documentation": {}
-    },
-    {
-        "label": "update_cmd",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "description": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "peekOfCode": "update_cmd = [\"terraform-docs\", \".\"]\nreturn_code, stdout, stderr = run_command(update_cmd)\nif stderr:\n    print(f\"terraform-docs error: Warning during execution:\\n{stderr}\", file=sys.stderr)\n# Check git status for unstaged README changes\nstatus_cmd = [\"git\", \"status\", \"--porcelain\"]\nreturn_code, stdout, stderr = run_command(status_cmd)\n# Look for any README.md files in the unstaged changes\nunstaged_readmes = [\n    line.split()[-1]",
-        "detail": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "documentation": {}
-    },
-    {
-        "label": "status_cmd",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "description": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "peekOfCode": "status_cmd = [\"git\", \"status\", \"--porcelain\"]\nreturn_code, stdout, stderr = run_command(status_cmd)\n# Look for any README.md files in the unstaged changes\nunstaged_readmes = [\n    line.split()[-1]\n    for line in stdout.splitlines()\n    if line.startswith(\" M\") and line.endswith(\"README.md\")\n]\n# Check if we found any unstaged README files\nif len(unstaged_readmes) > 0:",
-        "detail": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "documentation": {}
-    },
-    {
-        "label": "unstaged_readmes",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "description": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "peekOfCode": "unstaged_readmes = [\n    line.split()[-1]\n    for line in stdout.splitlines()\n    if line.startswith(\" M\") and line.endswith(\"README.md\")\n]\n# Check if we found any unstaged README files\nif len(unstaged_readmes) > 0:\n    print(\"terraform-docs error: Please stage any README changes before committing.\")\n    sys.exit(1)\nprint(\"terraform-docs: Documentation is up to date\")",
-        "detail": ".trunk.plugins.trunk.actions.terraform-docs.terraform-docs",
-        "documentation": {}
-    },
-    {
-        "label": "Example3",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "peekOfCode": "class Example3(   object ):\n    def __init__    ( self, bar ):\n     #Comments should have a space after the hash.\n     if bar : bar+=1;  bar=bar* bar   ; return bar\n     else:\n                    some_string = \"\"\"\n                       Indentation in multiline strings should not be touched.\nOnly actual code should be reindented.\n\"\"\"\n                    return (sys.path, some_string)",
-        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "example1",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "peekOfCode": "def example1():\n    ####This is a long comment. This should be wrapped to fit within 72 characters.\n    some_tuple=(   1,2, 3,'a'  );\n    some_variable={'long':'Long code lines should be wrapped within 79 characters.',\n    'other':[math.pi, 100,200,300,9876543210,'This is a long string that goes on'],\n    'more':{'inner':'This whole logical line should be wrapped.',some_tuple:[1,\n    20,300,40000,500000000,60000000000000000]}}\n    return (some_tuple, some_variable)\ndef example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));\nclass Example3(   object ):",
-        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "example2",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "peekOfCode": "def example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));\nclass Example3(   object ):\n    def __init__    ( self, bar ):\n     #Comments should have a space after the hash.\n     if bar : bar+=1;  bar=bar* bar   ; return bar\n     else:\n                    some_string = \"\"\"\n                       Indentation in multiline strings should not be touched.\nOnly actual code should be reindented.\n\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.autopep8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "pick",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "peekOfCode": "pick = dill.dumps({\"a\": \"b\", \"c\": \"d\"})\nprint(dill.loads(pick))\nfile_obj = StringIO.StringIO()\ndill.dump([1, 2, \"3\"], file_obj)",
-        "detail": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "file_obj",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "peekOfCode": "file_obj = StringIO.StringIO()\ndill.dump([1, 2, \"3\"], file_obj)",
-        "detail": ".trunk.plugins.trunk.linters.bandit.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "NoDocstring",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"",
-        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "Globe",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"\ncachedir = \"/tmp\"",
-        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\nimport pands\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
-        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "cachedir",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "peekOfCode": "cachedir = \"/tmp\"",
-        "detail": ".trunk.plugins.trunk.linters.codespell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "peekOfCode": "def main(argv):\n    results = []\n    for line in sys.stdin.readlines():\n        filename, line_number, message = line.split(\":\")\n        results.append(\n            to_result_sarif(\n                filename, int(line_number), 0, \"misspelled\", message.strip()\n            )\n        )\n    sarif = {",
-        "detail": ".trunk.plugins.trunk.linters.codespell.codespell_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "NoDocstring",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"",
-        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "Globe",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n    def __inti__(self):\n        prit(\"this is not a valid method\")\n        callbak = lamda x: x * 2\n    varName1 = \"helol ym anme is var\"\ncachedir = \"/tmp\"",
-        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\nimport pands\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
-        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "cachedir",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "description": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "peekOfCode": "cachedir = \"/tmp\"",
-        "detail": ".trunk.plugins.trunk.linters.cspell.test_data.basic_py.in",
-        "documentation": {}
-    },
-    {
-        "label": "NoDocstring",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
-        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "Globe",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
-        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(flake8/F401): this will trigger a warning to verify that the config is applied\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
-        "detail": ".trunk.plugins.trunk.linters.flake8.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "aws_access_key_id",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "peekOfCode": "aws_access_key_id = \"AKIAIO5FODNN7EXAMPLE\"\naws_token = \"AKIALALEMEL33243OLIA\"\nprivate_key = \"\"\"-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XAAAAJDiKO3C4ijt\nwgAAAAtzc2gtZWQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XA\nAAAECzmj8DGxg5YHtBK4AmBttMXDQHsPAaCyYHQjJ4YujRBTxhYpjO266/FQgyiZzfO/Q5\n1cJPnsJzZxFi7dMxtf1cAAAADHJvb3RAZGV2aG9zdAE=\n-----END OPENSSH PRIVATE KEY-----\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "aws_token",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "peekOfCode": "aws_token = \"AKIALALEMEL33243OLIA\"\nprivate_key = \"\"\"-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XAAAAJDiKO3C4ijt\nwgAAAAtzc2gtZWQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XA\nAAAECzmj8DGxg5YHtBK4AmBttMXDQHsPAaCyYHQjJ4YujRBTxhYpjO266/FQgyiZzfO/Q5\n1cJPnsJzZxFi7dMxtf1cAAAADHJvb3RAZGV2aG9zdAE=\n-----END OPENSSH PRIVATE KEY-----\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "private_key",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "peekOfCode": "private_key = \"\"\"-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XAAAAJDiKO3C4ijt\nwgAAAAtzc2gtZWQyNTUxOQAAACA8YWKYztuuvxUIMomc3zv0OdXCT57Cc2cRYu3TMbX9XA\nAAAECzmj8DGxg5YHtBK4AmBttMXDQHsPAaCyYHQjJ4YujRBTxhYpjO266/FQgyiZzfO/Q5\n1cJPnsJzZxFi7dMxtf1cAAAADHJvb3RAZGV2aG9zdAE=\n-----END OPENSSH PRIVATE KEY-----\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.gitleaks.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "description": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "peekOfCode": "def to_result_sarif(path: str, lineno: int, colno: int, rule_id: str, message: str):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
-        "detail": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "description": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "peekOfCode": "def main(argv):\n    output_json = json.load(sys.stdin)\n    errors = output_json.get(\"errors\", [])\n    results = []\n    for error in errors:\n        rule = error.get(\"rule\", \"\")\n        message = error.get(\"message\", \"\")\n        location = error.get(\"location\")\n        if location:\n            path = location.get(\"file\", \"\")",
-        "detail": ".trunk.plugins.trunk.linters.graphql-schema-linter.parse",
-        "documentation": {}
-    },
-    {
-        "label": "try_find_string_in_file",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "description": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "peekOfCode": "def try_find_string_in_file(filename, search_string):\n    with open(filename, \"r\") as f:\n        for i, line in enumerate(f):\n            index = line.find(search_string)\n            if index != -1:\n                return i + 1, index + 1\n    return 0, 0\ndef to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):",
-        "detail": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "description": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "description": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "peekOfCode": "def main(argv):\n    parser = argparse.ArgumentParser(description=\"Parse output of markdown-link-check\")\n    parser.add_argument(\"--target\", dest=\"target\")\n    args = parser.parse_args()\n    results = []\n    # Line numbers are not reported out of the tool right now - so we regex parse the output to extract issue codes\n    for line in sys.stdin:\n        parse_reg = \"\\s*(\\[.*\\])\\s(.*)→.*Status:\\s*(\\d*)(.*)\"\n        filename = args.target\n        parse_result = re.fullmatch(parse_reg, line, flags=re.DOTALL)",
-        "detail": ".trunk.plugins.trunk.linters.markdown-link-check.parse",
-        "documentation": {}
-    },
-    {
-        "label": "greeting",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "peekOfCode": "def greeting(name: str) -> str:\n    return \"Hello \" + name\ndef printer() -> None:\n    print(\"Hello\")\ngreeting(3)\ngreeting(b\"Alice\")\na = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "printer",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "peekOfCode": "def printer() -> None:\n    print(\"Hello\")\ngreeting(3)\ngreeting(b\"Alice\")\na = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "bad_foo",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "peekOfCode": "def bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "peekOfCode": "a = printer()\nc: str = 4\nfrom source import Bar\ndef bad_foo(bar: Bar) -> str:\n  return bar.a + bar.b",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.basic",
-        "documentation": {}
-    },
-    {
-        "label": "Bar",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "peekOfCode": "class Bar:\n  a: int\n  b: int\ndef bad_function() -> int:\n  print(\"returns nothing\")",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "documentation": {}
-    },
-    {
-        "label": "bad_function",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "description": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "peekOfCode": "def bad_function() -> int:\n  print(\"returns nothing\")",
-        "detail": ".trunk.plugins.trunk.linters.mypy.test_data.source",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.nancy.parse",
-        "description": ".trunk.plugins.trunk.linters.nancy.parse",
-        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.nancy.parse",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.nancy.parse",
-        "description": ".trunk.plugins.trunk.linters.nancy.parse",
-        "peekOfCode": "def main(argv):\n    results = []\n    nancy_output = json.load(sys.stdin)\n    for vuln_entry in nancy_output.get(\"vulnerable\", []):\n        for vuln in vuln_entry.get(\"Vulnerabilities\", []):\n            results.append(\n                to_result_sarif(\n                    \".\",\n                    0,\n                    0,",
-        "detail": ".trunk.plugins.trunk.linters.nancy.parse",
-        "documentation": {}
-    },
-    {
-        "label": "get_sarif_severity",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "def get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"database_specific\" not in vuln:\n        return DEFAULT_SARIF_SEVERITY\n    vuln_metadata = vuln[\"database_specific\"]\n    if \"severity\" not in vuln_metadata:\n        return DEFAULT_SARIF_SEVERITY\n    severity = vuln_metadata[\"severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)\ndef to_result_sarif(",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "def to_result_sarif(\n    path: str, lineno: int, vuln_id: str, description: str, severity: str\n):\n    return {\n        \"level\": severity,\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "join_common_sets",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "def join_common_sets(lst):\n    init_len = 0\n    final_len = 1\n    while init_len != final_len:\n        init_len = len(lst)\n        ret = []\n        for s in lst:\n            unique = True\n            for stored_set in ret:\n                if len(stored_set.intersection(s)) > 0:",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "get_preferred_alias",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "def get_preferred_alias(aliases):\n    for rx in PREFERRED_ORDER:\n        found_aliases = sorted(alias for alias in aliases if re.match(rx, alias))\n        if len(found_aliases) > 0:\n            return found_aliases[0]\n    return sorted(aliases)[0]\ndef main(argv):\n    try:\n        # On Windows, Unicode characters in the osv-scanner output cause json parsing errors. Filter them out since we don't care about their fields.\n        if sys.platform == \"win32\":",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "def main(argv):\n    try:\n        # On Windows, Unicode characters in the osv-scanner output cause json parsing errors. Filter them out since we don't care about their fields.\n        if sys.platform == \"win32\":\n            filtered_stdin = \"\".join(i for i in sys.stdin.read() if ord(i) < 256)\n            osv_json = json.loads(filtered_stdin)\n        else:\n            osv_json = json.load(sys.stdin)\n    except json.decoder.JSONDecodeError as err:\n        if str(err) == \"Expecting value: line 1 column 1 (char 0)\":",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "SARIF_SEVERITY_BY_OSV_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "SARIF_SEVERITY_BY_OSV_SEVERITY = {\n    \"CRITICAL\": \"error\",\n    \"HIGH\": \"error\",\n    \"MODERATE\": \"warning\",\n    \"MEDIUM\": \"warning\",\n    \"LOW\": \"note\",\n}\nDEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_SARIF_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "DEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"database_specific\" not in vuln:\n        return DEFAULT_SARIF_SEVERITY\n    vuln_metadata = vuln[\"database_specific\"]\n    if \"severity\" not in vuln_metadata:\n        return DEFAULT_SARIF_SEVERITY\n    severity = vuln_metadata[\"severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "PREFERRED_ORDER",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "peekOfCode": "PREFERRED_ORDER = [\"GHSA-.*\", \"CVE-.*\", \"PYSEC-.*\"]\ndef get_preferred_alias(aliases):\n    for rx in PREFERRED_ORDER:\n        found_aliases = sorted(alias for alias in aliases if re.match(rx, alias))\n        if len(found_aliases) > 0:\n            return found_aliases[0]\n    return sorted(aliases)[0]\ndef main(argv):\n    try:\n        # On Windows, Unicode characters in the osv-scanner output cause json parsing errors. Filter them out since we don't care about their fields.",
-        "detail": ".trunk.plugins.trunk.linters.osv-scanner.osv_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.phpstan.phpstan_parser",
-        "description": ".trunk.plugins.trunk.linters.phpstan.phpstan_parser",
-        "peekOfCode": "def main():\n    phpstan_json = json.loads(sys.stdin.read())\n    results = []\n    for file_name in phpstan_json[\"files\"]:\n        file_result = phpstan_json[\"files\"][file_name]\n        for result in file_result[\"messages\"]:\n            result = {\n                # We do not have a ruleId\n                \"message\": {\n                    \"text\": result[\"message\"],",
-        "detail": ".trunk.plugins.trunk.linters.phpstan.phpstan_parser",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "peekOfCode": "def to_result_sarif(path: str, description: str, line: int = 0, column: int = 0):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
-        "detail": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "peekOfCode": "def main(argv):\n    if len(argv) < 2:\n        print(\"Usage: trivy_to_sarif.py <exit_code>)\")\n        sys.exit(1)\n    if argv[1] == \"0\":\n        results = []\n        sarif = {\n            \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n            \"version\": \"2.1.0\",\n            \"runs\": [{\"results\": results}],",
-        "detail": ".trunk.plugins.trunk.linters.prettier.prettier_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "shift",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "peekOfCode": "shift = 3\nchoice = raw_input(\"would you like to encode or decode?\")\nword = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "choice",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "peekOfCode": "choice = raw_input(\"would you like to encode or decode?\")\nword = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "word",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "peekOfCode": "word = raw_input(\"Please enter text\")\nletters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "letters",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "peekOfCode": "letters = string.ascii_letters + string.punctuation + string.digits\nencoded = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "encoded",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "peekOfCode": "encoded = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "foo",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
-        "description": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
-        "peekOfCode": "def foo():\n    return \"bar\"",
-        "detail": ".trunk.plugins.trunk.linters.pylint.test_data.severity",
-        "documentation": {}
-    },
-    {
-        "label": "A",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "class A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\" # Mypy treats this as an error because `x` is implicitly declared as `int`\na = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "A",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "class A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error\nclass Color(Enum):\n    RED = 1",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "Color",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "class Color(Enum):\n    RED = 1\n    BLUE = 2\ndef is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\n    # mypy reports error: Missing return statement\ndef func(val: int | None):",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "wrong_type",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "def wrong_type(x: int) -> str:\n    return x  # error: Incompatible return value type (got \"int\", expected \"str\")\nclass A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\" # Mypy treats this as an error because `x` is implicitly declared as `int`\na = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "is_red",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "def is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\n    # mypy reports error: Missing return statement\ndef func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "func",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "def func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)\n            print(val + 1)  # mypy produces a false positive error here\n        inner_2 = lambda: reveal_type(val) + 1\n        inner_1()\n        inner_2()",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "a = A()\nreveal_type(a.x)\na.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a.x",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "a.x = \"\" # Pyright allows this because the type of `x` is `int | str`\na.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a.x",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "peekOfCode": "a.x = 3.0 # Pyright treats this as an error because the type of `x` is `int | str`\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z) # pyright shows error, mypy shows no error\nclass Color(Enum):",
-        "detail": ".trunk.plugins.trunk.linters.pyright.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "peekOfCode": "results = []\nfor result in json.load(sys.stdin)[\"generalDiagnostics\"]:\n    parse = {\n        \"level\": result[\"severity\"] if result[\"severity\"] != \"information\" else \"note\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": result[\"file\"],\n                    },",
-        "detail": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "sarif",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "peekOfCode": "sarif = {\n    \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n    \"version\": \"2.1.0\",\n    \"runs\": [{\"results\": results}],\n}\nprint(json.dumps(sarif, indent=2))",
-        "detail": ".trunk.plugins.trunk.linters.pyright.pyright_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "description": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "description": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "peekOfCode": "def main(argv):\n    results = []\n    content_json = sys.stdin.read()\n    content = json.loads(content_json)\n    for file_content in content:\n        messages = file_content.get(\"messages\", [])\n        if messages:\n            for msg in messages:\n                results.append(\n                    to_result_sarif(",
-        "detail": ".trunk.plugins.trunk.linters.remark-lint.parse",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.renovate.parse",
-        "description": ".trunk.plugins.trunk.linters.renovate.parse",
-        "peekOfCode": "def to_result_sarif(\n    path: str, line_number: int, column_number: int, rule_id: str, message: str\n):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.renovate.parse",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.renovate.parse",
-        "description": ".trunk.plugins.trunk.linters.renovate.parse",
-        "peekOfCode": "def main(argv):\n    results = []\n    content = sys.stdin.read()\n    parse_reg = \"(.*WARN:.*could not be parsed)(.*)\"\n    error_section = content.find('\"errors\": [')\n    parse_result = re.fullmatch(parse_reg, content, flags=re.DOTALL)\n    if parse_result:\n        warn_section = parse_result.group(2)\n        json_content = \"{\" + warn_section + \"}\"\n        error_output = json.loads(json_content)",
-        "detail": ".trunk.plugins.trunk.linters.renovate.parse",
-        "documentation": {}
-    },
-    {
-        "label": "map_severity",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "peekOfCode": "def map_severity(severity):\n    if severity in [\"convention\", \"refactor\", \"info\"]:\n        return \"note\"\n    if severity in [\"warning\"]:\n        return \"warning\"\n    if severity in [\"error\", \"fatal\"]:\n        return \"error\"\n    return \"none\"\nresults = []\nfor file in json.load(sys.stdin)[\"files\"]:",
-        "detail": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "peekOfCode": "results = []\nfor file in json.load(sys.stdin)[\"files\"]:\n    for offense in file[\"offenses\"]:\n        parse = {\n            \"level\": map_severity(offense[\"severity\"]),\n            \"locations\": [\n                {\n                    \"physicalLocation\": {\n                        \"artifactLocation\": {\n                            \"uri\": file[\"path\"],",
-        "detail": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "sarif",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "peekOfCode": "sarif = {\n    \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n    \"version\": \"2.1.0\",\n    \"runs\": [{\"results\": results}],\n}\nprint(json.dumps(sarif, indent=2))",
-        "detail": ".trunk.plugins.trunk.linters.rubocop.rubocop_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "NoDocstring",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
-        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "Globe",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'",
-        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\n# trunk-ignore(ruff/F401)\nimport json\nimport sys\nclass NoDocstring(object):\n    def __init__(self, arg1):",
-        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "f",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.test_data.syntax.in",
-        "description": ".trunk.plugins.trunk.linters.ruff.test_data.syntax.in",
-        "peekOfCode": "def f(): {",
-        "detail": ".trunk.plugins.trunk.linters.ruff.test_data.syntax.in",
-        "documentation": {}
-    },
-    {
-        "label": "get_region",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "peekOfCode": "def get_region(entry, column_offset=0):\n    location = entry[\"location\"]\n    region = {\n        \"startColumn\": location[\"column\"] + column_offset,\n        \"startLine\": location[\"row\"],\n    }\n    if \"end_location\" in entry:\n        end_location = entry[\"end_location\"]\n        region[\"endColumn\"] = end_location[\"column\"] + column_offset\n        region[\"endLine\"] = end_location[\"row\"]",
-        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "results",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "peekOfCode": "results = []\ndef get_region(entry, column_offset=0):\n    location = entry[\"location\"]\n    region = {\n        \"startColumn\": location[\"column\"] + column_offset,\n        \"startLine\": location[\"row\"],\n    }\n    if \"end_location\" in entry:\n        end_location = entry[\"end_location\"]\n        region[\"endColumn\"] = end_location[\"column\"] + column_offset",
-        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "ruff_column_index",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "peekOfCode": "ruff_column_index = 1\nif len(sys.argv) > 1:\n    ruff_column_index = int(sys.argv[1])\nfor result in json.load(sys.stdin):\n    # As of ruff v0.0.260, some autofixable diagnostics may appear redundantly\n    if \"location\" not in result:\n        continue\n    filepath = result[\"filename\"]\n    # Ruff will set code to null for syntax errors\n    rule_id = result[\"code\"] or \"E999\"",
-        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "sarif",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "peekOfCode": "sarif = {\n    \"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\",\n    \"version\": \"2.1.0\",\n    \"runs\": [{\"results\": results}],\n}\nprint(json.dumps(sarif, indent=2))",
-        "detail": ".trunk.plugins.trunk.linters.ruff.ruff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "unvalidated_value",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
-        "description": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
-        "peekOfCode": "def unvalidated_value(request):\n    value = request.GET.get('something')\n    function = globals().get(value)\n    if function:\n        return function(request)",
-        "detail": ".trunk.plugins.trunk.linters.semgrep.test_data.request",
-        "documentation": {}
-    },
-    {
-        "label": "test",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "peekOfCode": "def test():\n  substitution = \"hello %s\" % test\n  my_list = List()\n  try:\n    pass\n  except Exception:\n    raise Exception(\"test\")",
-        "detail": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "test",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "peekOfCode": "test = \"world\"\ndef test():\n  substitution = \"hello %s\" % test\n  my_list = List()\n  try:\n    pass\n  except Exception:\n    raise Exception(\"test\")",
-        "detail": ".trunk.plugins.trunk.linters.sourcery.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "peekOfCode": "def to_result_sarif(\n    path: str,\n    start_line_number: int,\n    start_column_number: int,\n    end_line_number: Optional[int],\n    end_column_number: Optional[int],\n    rule_id: str,\n    message: str,\n):\n    region = {",
-        "detail": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "peekOfCode": "def main(argv):\n    sqlfluff_json = json.load(sys.stdin)\n    results = []\n    for result in sqlfluff_json:\n        filepath = result[\"filepath\"]\n        for violation in result[\"violations\"]:\n            # In sqlfluff 3.0.0, line_no/line_pos replaced with start_*/end_*\n            start_line_number = violation.get(\"start_line_no\", violation.get(\"line_no\"))\n            start_column_number = violation.get(\n                \"start_line_pos\", violation.get(\"line_pos\")",
-        "detail": ".trunk.plugins.trunk.linters.sqlfluff.sqlfluff_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
-        "peekOfCode": "def main(argv):\n    input_sarif = json.load(sys.stdin)\n    # strip \"file:\" from the beginning of each value in the 'file' field in the 'location' object in sarif format\n    for run in input_sarif[\"runs\"]:\n        for result in run[\"results\"]:\n            for location in result[\"locations\"]:\n                location[\"physicalLocation\"][\"artifactLocation\"][\"uri\"] = location[\n                    \"physicalLocation\"\n                ][\"artifactLocation\"][\"uri\"][5:]\n    print(json.dumps(input_sarif, indent=2))",
-        "detail": ".trunk.plugins.trunk.linters.terrascan.sarif_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.tfsec.parse",
-        "description": ".trunk.plugins.trunk.linters.tfsec.parse",
-        "peekOfCode": "def main():\n    original_input = sys.stdin.read()\n    try:\n        index = original_input.index(\"{\")\n        print(original_input[index:])\n    except ValueError:\n        print(original_input)\nif __name__ == \"__main__\":\n    main()",
-        "detail": ".trunk.plugins.trunk.linters.tfsec.parse",
-        "documentation": {}
-    },
-    {
-        "label": "aws_access_key_id",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "description": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "peekOfCode": "aws_access_key_id = \"AKIAXYZDQCEN4EXAMPLE\"\naws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = \"\"\"\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu",
-        "detail": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "documentation": {}
-    },
-    {
-        "label": "aws_secret_access_key",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "description": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "peekOfCode": "aws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = \"\"\"\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF",
-        "detail": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "documentation": {}
-    },
-    {
-        "label": "github_secret",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "description": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "peekOfCode": "github_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = \"\"\"\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH",
-        "detail": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "documentation": {}
-    },
-    {
-        "label": "basic_auth",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "description": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "peekOfCode": "basic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = \"\"\"\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5",
-        "detail": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "documentation": {}
-    },
-    {
-        "label": "priv_key",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "description": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "peekOfCode": "priv_key = \"\"\"\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5\nWAi47VMFTkDZYS/eCvG53q9UBHpCj7Qvb0vSkCZXBvBIhlw193F3PX4WvO1IXsMwvQ1D1X",
-        "detail": ".trunk.plugins.trunk.linters.trivy.test_data.secrets",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "peekOfCode": "def to_result_sarif(path: str, vuln_id: str, description: str, line: int = 0):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "peekOfCode": "def main(argv):\n    trivy_json = json.load(sys.stdin)\n    path = trivy_json[\"ArtifactName\"]\n    results = []\n    for result in trivy_json.get(\"Results\", []):\n        if \"Misconfigurations\" not in result:\n            continue\n        for vuln in result[\"Misconfigurations\"]:\n            vuln_id = vuln[\"ID\"]\n            message = vuln[\"Message\"]",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_config_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "get_sarif_severity",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "peekOfCode": "def get_sarif_severity(secret) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"Severity\" not in secret:\n        return DEFAULT_SARIF_SEVERITY\n    severity = secret[\"Severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)\ndef to_result_sarif(path: str, severity: str, code: str, description: str, lineno: int):\n    return {\n        \"level\": severity,\n        \"locations\": [",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "peekOfCode": "def to_result_sarif(path: str, severity: str, code: str, description: str, lineno: int):\n    return {\n        \"level\": severity,\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "peekOfCode": "def main(argv):\n    trivy_json = json.load(sys.stdin)\n    results = []\n    for result in trivy_json.get(\"Results\", []):\n        path = trivy_json[\"ArtifactName\"]\n        for secret in result.get(\"Secrets\", []):\n            code = secret[\"RuleID\"]\n            description = secret[\"Title\"]\n            lineno = secret.get(\"StartLine\", 0)\n            results.append(",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "SARIF_SEVERITY_BY_OSV_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "peekOfCode": "SARIF_SEVERITY_BY_OSV_SEVERITY = {\n    \"CRITICAL\": \"error\",\n    \"HIGH\": \"error\",\n    \"MODERATE\": \"warning\",\n    \"MEDIUM\": \"warning\",\n    \"LOW\": \"note\",\n}\nDEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(secret) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_SARIF_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "peekOfCode": "DEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(secret) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"Severity\" not in secret:\n        return DEFAULT_SARIF_SEVERITY\n    severity = secret[\"Severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)\ndef to_result_sarif(path: str, severity: str, code: str, description: str, lineno: int):\n    return {\n        \"level\": severity,",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_secret_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "get_sarif_severity",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "peekOfCode": "def get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"Severity\" not in vuln:\n        return DEFAULT_SARIF_SEVERITY\n    severity = vuln[\"Severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)\ndef to_result_sarif(\n    path: str, severity: str, vuln_id: str, description: str, lineno: int\n):\n    return {",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "peekOfCode": "def to_result_sarif(\n    path: str, severity: str, vuln_id: str, description: str, lineno: int\n):\n    return {\n        \"level\": severity,\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "peekOfCode": "def main(argv):\n    trivy_json = json.load(sys.stdin)\n    results = []\n    lockfiles = {}\n    for result in trivy_json.get(\"Results\", []):\n        for vuln in result.get(\"Vulnerabilities\", []):\n            pkg_name = vuln[\"PkgName\"]\n            path = trivy_json[\"ArtifactName\"]\n            vuln_id = vuln[\"VulnerabilityID\"]\n            description = vuln[\"Title\"]",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "SARIF_SEVERITY_BY_OSV_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "peekOfCode": "SARIF_SEVERITY_BY_OSV_SEVERITY = {\n    \"CRITICAL\": \"error\",\n    \"HIGH\": \"error\",\n    \"MODERATE\": \"warning\",\n    \"MEDIUM\": \"warning\",\n    \"LOW\": \"note\",\n}\nDEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_SARIF_SEVERITY",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "peekOfCode": "DEFAULT_SARIF_SEVERITY = \"error\"\ndef get_sarif_severity(vuln) -> str:\n    \"\"\"Get the SARIF severity appropriate for a given OSV vulnerability entry.\"\"\"\n    if \"Severity\" not in vuln:\n        return DEFAULT_SARIF_SEVERITY\n    severity = vuln[\"Severity\"].upper()\n    return SARIF_SEVERITY_BY_OSV_SEVERITY.get(severity, DEFAULT_SARIF_SEVERITY)\ndef to_result_sarif(\n    path: str, severity: str, vuln_id: str, description: str, lineno: int\n):",
-        "detail": ".trunk.plugins.trunk.linters.trivy.trivy_fs_vuln_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "aws_access_key_id",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "peekOfCode": "aws_access_key_id = \"AKIAXYZDQCEN4EXAMPLE\"\naws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "documentation": {}
-    },
-    {
-        "label": "aws_secret_access_key",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "peekOfCode": "aws_secret_access_key = \"Tg0pz8Jii8hkLx4+PnUisM8GmKs3a2DK+EXAMPLE\"\n# The below keys are copied from https://github.com/dustin-decker/secretsandstuff\ngithub_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "documentation": {}
-    },
-    {
-        "label": "github_secret",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "peekOfCode": "github_secret = \"369963c1434c377428ca8531fbc46c0c43d037a0\"\nbasic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "documentation": {}
-    },
-    {
-        "label": "basic_auth",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "peekOfCode": "basic_auth = \"https://admin:admin@the-internet.herokuapp.com/basic_auth\"\npriv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "documentation": {}
-    },
-    {
-        "label": "priv_key",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "peekOfCode": "priv_key = '''\n-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABAjNIZuun\nxgLkM8KuzfmQuRAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQDe3Al0EMPz\nutVNk5DixaYrGMK56RqUoqGBinke6SWVWmqom1lBcJWzor6HlnMRPPr7YCEsJKL4IpuVwu\ninRa5kdtNTyM7yyQTSR2xXCS0fUItNuq8pUktsH8VUggpMeew8hJv7rFA7tnIg3UXCl6iF\nOLZKbDA5aa24idpcD8b1I9/RzTOB1fu0of5xd9vgODzGw5JvHQSJ0FaA42aNBMGwrDhDB3\nsgnRNdWf6NNIh8KpXXMKJADf3klsyn6He8L2bPMp8a4wwys2YB35p5zQ0JURovsdewlOxH\nNT7eP19eVf4dCreibxUmRUaob5DEoHEk8WrxjKWIYUuLeD6AfcW6oXyRU2Yy8Vrt6SqFl5\nWAi47VMFTkDZYS/eCvG53q9UBHpCj7Qvb0vSkCZXBvBIhlw193F3PX4WvO1IXsMwvQ1D1X",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.test_data.secrets.in",
-        "documentation": {}
-    },
-    {
-        "label": "to_result_sarif",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "def to_result_sarif(path: str, line_number: int, vuln_id: str, description: str):\n    return {\n        \"level\": \"error\",\n        \"locations\": [\n            {\n                \"physicalLocation\": {\n                    \"artifactLocation\": {\n                        \"uri\": path,\n                    },\n                    \"region\": {",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "sliding_window",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "def sliding_window(iterable, n):\n    # sliding_window('ABCDEFG', 4) --> ABCD BCDE CDEF DEFG\n    it = iter(iterable)\n    window = collections.deque(islice(it, n - 1), maxlen=n)\n    for x in it:\n        window.append(x)\n        yield tuple(window)\nsecret_lineno_cache = {}\nfile_cache = {}\ndef find_line_number(secret, path):",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "find_line_number",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "def find_line_number(secret, path):\n    if path not in file_cache:\n        file_cache[path] = open(path).readlines()\n    if secret not in secret_lineno_cache:\n        secret_lineno_cache[secret] = []\n    secret_length = len(secret.splitlines())\n    lines = file_cache[path]\n    for lineno, window in enumerate(sliding_window(lines, secret_length), 1):\n        # trufflehog can report the same secret multiple times\n        # if it truly appears multiple times, then we want to log different lines for each issue",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "def main(argv):\n    results = []\n    for line in sys.stdin.readlines():\n        vuln_json = json.loads(line)\n        # trufflehog doesn't have vuln IDs\n        # this is the name of the detector that found the error (e.g. AWS, Github, PrivateKey)\n        vuln_id = vuln_json[\"DetectorName\"]\n        # There also isn't description of the error aside from the raw secret, the redacted secret,\n        # and the detector that found it.\n        #",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "secret_lineno_cache",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "secret_lineno_cache = {}\nfile_cache = {}\ndef find_line_number(secret, path):\n    if path not in file_cache:\n        file_cache[path] = open(path).readlines()\n    if secret not in secret_lineno_cache:\n        secret_lineno_cache[secret] = []\n    secret_length = len(secret.splitlines())\n    lines = file_cache[path]\n    for lineno, window in enumerate(sliding_window(lines, secret_length), 1):",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "file_cache",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "description": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "peekOfCode": "file_cache = {}\ndef find_line_number(secret, path):\n    if path not in file_cache:\n        file_cache[path] = open(path).readlines()\n    if secret not in secret_lineno_cache:\n        secret_lineno_cache[secret] = []\n    secret_length = len(secret.splitlines())\n    lines = file_cache[path]\n    for lineno, window in enumerate(sliding_window(lines, secret_length), 1):\n        # trufflehog can report the same secret multiple times",
-        "detail": ".trunk.plugins.trunk.linters.trufflehog.trufflehog_to_sarif",
-        "documentation": {}
-    },
-    {
-        "label": "A",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "class A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\"\na = A()\nreveal_type(a.x)\na.x = \"\"\na.x = 3.0\nclass A:",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "A",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "class A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z)\nclass Color(Enum):\n    RED = 1",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "Color",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "class Color(Enum):\n    RED = 1\n    BLUE = 2\ndef is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\ndef func(val: int | None):\n    if val is not None:",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "wrong_type",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "def wrong_type(x: int) -> str:\n    return x  # error: Incompatible return value type (got \"int\", expected \"str\")\nclass A:\n    def method1(self) -> None:\n        self.x = 1\n    def method2(self) -> None:\n        self.x = \"\"\na = A()\nreveal_type(a.x)\na.x = \"\"",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "is_red",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "def is_red(color: Color) -> bool:\n    if color == Color.RED:\n        return True\n    elif color == Color.BLUE:\n        return False\ndef func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)\n            print(val + 1)",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "func",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "def func(val: int | None):\n    if val is not None:\n        def inner_1() -> None:\n            reveal_type(val)\n            print(val + 1)\n        inner_2 = lambda: reveal_type(val) + 1\n        inner_1()\n        inner_2()",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "a = A()\nreveal_type(a.x)\na.x = \"\"\na.x = 3.0\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a.x",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "a.x = \"\"\na.x = 3.0\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z)",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "a.x",
-        "kind": 5,
-        "importPath": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "peekOfCode": "a.x = 3.0\nclass A:\n    x: int = 0 # Regular class variable\n    y: ClassVar[int] = 0 # Pure class variable\n    def __init__(self):\n        self.z = 0 # Pure instance variable\nprint(A.x)\nprint(A.y)\nprint(A.z)\nclass Color(Enum):",
-        "detail": ".trunk.plugins.trunk.linters.ty.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "NoDocstring",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "peekOfCode": "class NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1\nclass Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n#whitespace below vvv\n  #A malindented comment\nif __name__ == \"__main__\" :\n      a=4+1",
-        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "Globe",
-        "kind": 6,
-        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "peekOfCode": "class Globe(object):\n    def __init__(self):\n        self.shape = 'spheroid'\n#whitespace below vvv\n  #A malindented comment\nif __name__ == \"__main__\" :\n      a=4+1\n      b=( 2*7 )\n      c = [1,\n           2,",
-        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "description": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
-        "peekOfCode": "def main():\n    try:\n        pass\n    except (Exception, TypeError):\n        pass\nimport sys\n# trunk-ignore(flake8/F401): this will trigger a warning to verify that the config is applied\nclass NoDocstring(object):\n    def __init__(self, arg1):\n        self._attr1 = arg1",
-        "detail": ".trunk.plugins.trunk.linters.yapf.test_data.basic.in",
         "documentation": {}
     },
     {
@@ -2124,11 +1026,173 @@
         "documentation": {}
     },
     {
+        "label": "PolicyError",
+        "kind": 6,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "class PolicyError(Exception):\n    \"\"\"Raised for issues related to policy loading or model errors.\"\"\"\n    pass\nclass AuthorizationError(Exception):\n    \"\"\"Base class for authorization failures.\"\"\"\n    pass\nclass NotAuthorizedError(AuthorizationError):\n    \"\"\"Raised when a subject is not authorized for a specific action on an object.\"\"\"\n    def __init__(self, subject: Any, obj: Any, action: Any, message: Optional[str] = None):\n        self.subject = subject",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorizationError",
+        "kind": 6,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "class AuthorizationError(Exception):\n    \"\"\"Base class for authorization failures.\"\"\"\n    pass\nclass NotAuthorizedError(AuthorizationError):\n    \"\"\"Raised when a subject is not authorized for a specific action on an object.\"\"\"\n    def __init__(self, subject: Any, obj: Any, action: Any, message: Optional[str] = None):\n        self.subject = subject\n        self.obj = obj\n        self.action = action\n        if message is None:",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "NotAuthorizedError",
+        "kind": 6,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "class NotAuthorizedError(AuthorizationError):\n    \"\"\"Raised when a subject is not authorized for a specific action on an object.\"\"\"\n    def __init__(self, subject: Any, obj: Any, action: Any, message: Optional[str] = None):\n        self.subject = subject\n        self.obj = obj\n        self.action = action\n        if message is None:\n            message = f\"Subject '{subject}' is not authorized to '{action}' on object '{obj}'.\"\n        super().__init__(message)\n# --- Enforcer Initialization and Access ---",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "init_enforcer",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def init_enforcer(\n    model_path: Optional[Union[str, Path]] = None,\n    policy_adapter: Optional[Union[str, Path, object]] = None\n) -> casbin.Enforcer:\n    \"\"\"\n    Initializes and returns a Casbin enforcer instance.\n    If an enforcer is already initialized, it returns the existing one unless paths are different.\n    This function should ideally be called once at application startup.\n    :param model_path: Path to the Casbin model configuration file (.conf).\n                       Defaults to DEFAULT_MODEL_PATH.",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "get_enforcer",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def get_enforcer() -> casbin.Enforcer:\n    \"\"\"\n    Retrieves the global Casbin enforcer instance.\n    Initializes it with default paths if it hasn't been initialized yet.\n    :return: The global Casbin Enforcer instance.\n    :raises PolicyError: If the enforcer is not initialized and fails to initialize.\n    \"\"\"\n    if _enforcer is None:\n        # Attempt to initialize with defaults or paths from config if available\n        # app_cfg = get_config()",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "enforce",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def enforce(subject: Any, obj: Any, action: Any) -> bool:\n    \"\"\"\n    Performs an authorization check using the Casbin enforcer.\n    :param subject: The subject (e.g., user ID, role name) requesting access.\n    :param obj: The object (e.g., resource name, data entity) being accessed.\n    :param action: The action (e.g., read, write, execute) being performed.\n    :return: True if authorized, False otherwise.\n    :raises PolicyError: If the enforcer is not initialized.\n    \"\"\"\n    enforcer = get_enforcer()",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "add_policy_rule",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def add_policy_rule(subject: Any, obj: Any, action: Any) -> bool:\n    \"\"\"\n    Adds a single policy rule to the current Casbin enforcer.\n    Example: add_policy_rule(\"user1\", \"data1\", \"read\")\n    Note: This modifies the in-memory policy. Call save_policy_to_file() to persist if using FileAdapter.\n    \"\"\"\n    enforcer = get_enforcer()\n    # Casbin's add_policy expects variadic string arguments, not a list.\n    # For ptype 'p', it's typically (sub, obj, act)\n    # For gtype 'g', it's typically (user, role, optional_domain)",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "remove_policy_rule",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def remove_policy_rule(subject: Any, obj: Any, action: Any) -> bool:\n    \"\"\"\n    Removes a single policy rule from the current Casbin enforcer.\n    Note: This modifies the in-memory policy. Call save_policy_to_file() to persist if using FileAdapter.\n    \"\"\"\n    enforcer = get_enforcer()\n    return enforcer.remove_policy(str(subject), str(obj), str(action))\ndef add_grouping_policy_rule(user: Any, role: Any, domain: Optional[str] = None) -> bool:\n    \"\"\"\n    Adds a role assignment (grouping policy).",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "add_grouping_policy_rule",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def add_grouping_policy_rule(user: Any, role: Any, domain: Optional[str] = None) -> bool:\n    \"\"\"\n    Adds a role assignment (grouping policy).\n    Example: add_grouping_policy_rule(\"alice\", \"admin\")\n    Note: This modifies the in-memory policy. Call save_policy_to_file() to persist.\n    \"\"\"\n    enforcer = get_enforcer()\n    if domain:\n        return enforcer.add_grouping_policy(str(user), str(role), str(domain))\n    return enforcer.add_grouping_policy(str(user), str(role))",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "remove_grouping_policy_rule",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def remove_grouping_policy_rule(user: Any, role: Any, domain: Optional[str] = None) -> bool:\n    \"\"\"\n    Removes a role assignment (grouping policy).\n    Note: This modifies the in-memory policy. Call save_policy_to_file() to persist.\n    \"\"\"\n    enforcer = get_enforcer()\n    if domain:\n        return enforcer.remove_grouping_policy(str(user), str(role), str(domain))\n    return enforcer.remove_grouping_policy(str(user), str(role))\ndef get_all_policy_rules() -> list[list[str]]:",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_policy_rules",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def get_all_policy_rules() -> list[list[str]]:\n    \"\"\"Returns all policy rules from the enforcer.\"\"\"\n    enforcer = get_enforcer()\n    return enforcer.get_policy()\ndef get_all_grouping_policy_rules() -> list[list[str]]:\n    \"\"\"Returns all grouping policy rules (role assignments) from the enforcer.\"\"\"\n    enforcer = get_enforcer()\n    return enforcer.get_grouping_policy()\ndef save_policy_to_file() -> bool:\n    \"\"\"",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_grouping_policy_rules",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def get_all_grouping_policy_rules() -> list[list[str]]:\n    \"\"\"Returns all grouping policy rules (role assignments) from the enforcer.\"\"\"\n    enforcer = get_enforcer()\n    return enforcer.get_grouping_policy()\ndef save_policy_to_file() -> bool:\n    \"\"\"\n    Saves the current in-memory policy back to the policy file\n    if the adapter supports it (e.g., FileAdapter).\n    This is a no-op for adapters that auto-save or don't use files.\n    Returns True if save was attempted (actual success depends on adapter).",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "save_policy_to_file",
+        "kind": 2,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "def save_policy_to_file() -> bool:\n    \"\"\"\n    Saves the current in-memory policy back to the policy file\n    if the adapter supports it (e.g., FileAdapter).\n    This is a no-op for adapters that auto-save or don't use files.\n    Returns True if save was attempted (actual success depends on adapter).\n    \"\"\"\n    enforcer = get_enforcer()\n    # The save_policy method is part of the Adapter API that the Enforcer can call.\n    # Casbin's FileAdapter implements save_policy.",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_BASE_DIR",
+        "kind": 5,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "CONFIG_BASE_DIR = Path(__file__).resolve().parent.parent.parent / \"config\"\nDEFAULT_MODEL_PATH = CONFIG_BASE_DIR / \"rbac_model.conf\"\nDEFAULT_POLICY_PATH = CONFIG_BASE_DIR / \"rbac_policy.csv\"\n# --- Global Enforcer Instance ---\n_enforcer: Optional[casbin.Enforcer] = None\n# --- Custom Exceptions ---\nclass PolicyError(Exception):\n    \"\"\"Raised for issues related to policy loading or model errors.\"\"\"\n    pass\nclass AuthorizationError(Exception):",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MODEL_PATH",
+        "kind": 5,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "DEFAULT_MODEL_PATH = CONFIG_BASE_DIR / \"rbac_model.conf\"\nDEFAULT_POLICY_PATH = CONFIG_BASE_DIR / \"rbac_policy.csv\"\n# --- Global Enforcer Instance ---\n_enforcer: Optional[casbin.Enforcer] = None\n# --- Custom Exceptions ---\nclass PolicyError(Exception):\n    \"\"\"Raised for issues related to policy loading or model errors.\"\"\"\n    pass\nclass AuthorizationError(Exception):\n    \"\"\"Base class for authorization failures.\"\"\"",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_POLICY_PATH",
+        "kind": 5,
+        "importPath": "src.aphelion.authz.casbin_enforcer",
+        "description": "src.aphelion.authz.casbin_enforcer",
+        "peekOfCode": "DEFAULT_POLICY_PATH = CONFIG_BASE_DIR / \"rbac_policy.csv\"\n# --- Global Enforcer Instance ---\n_enforcer: Optional[casbin.Enforcer] = None\n# --- Custom Exceptions ---\nclass PolicyError(Exception):\n    \"\"\"Raised for issues related to policy loading or model errors.\"\"\"\n    pass\nclass AuthorizationError(Exception):\n    \"\"\"Base class for authorization failures.\"\"\"\n    pass",
+        "detail": "src.aphelion.authz.casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "AphelionFastAPIMiddleware",
+        "kind": 6,
+        "importPath": "src.aphelion.frameworks.fastapi.middleware",
+        "description": "src.aphelion.frameworks.fastapi.middleware",
+        "peekOfCode": "class AphelionFastAPIMiddleware(BaseHTTPMiddleware):\n    \"\"\"\n    FastAPI middleware for Aphelion security.\n    Handles JWT authentication. Authorization can be added later or handled by dependencies.\n    \"\"\"\n    def __init__(\n        self,\n        app: ASGIApp,\n        public_paths: Optional[set[str]] = None, # Paths that do not require authentication\n        # authz_enforcer: Optional[Callable] = None # Placeholder for Casbin enforcer integration",
+        "detail": "src.aphelion.frameworks.fastapi.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "bearer_scheme",
+        "kind": 5,
+        "importPath": "src.aphelion.frameworks.fastapi.middleware",
+        "description": "src.aphelion.frameworks.fastapi.middleware",
+        "peekOfCode": "bearer_scheme = HTTPBearer(auto_error=False) # auto_error=False to handle errors in middleware\n# --- Subject Retriever for Path Operations ---\nasync def get_current_subject(request: Request) -> Any:\n    \"\"\"\n    FastAPI dependency to get the authenticated subject from request.state.\n    This should be used in path operations that are protected by the middleware.\n    Returns the subject (e.g., user_id) if authentication was successful.\n    Raises HTTPException if the subject is not available (shouldn't happen if middleware is effective).\n    \"\"\"\n    if not hasattr(request.state, \"subject\") or request.state.subject is None:",
+        "detail": "src.aphelion.frameworks.fastapi.middleware",
+        "documentation": {}
+    },
+    {
         "label": "JWTConfigModel",
         "kind": 6,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "class JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.\n    # This might not be directly configured via YAML/env for a simple set.\n    # It's more of a runtime state that might be backed by Redis/DB.\n    # For now, keeping it out of direct config loading, will be managed by auth module.",
+        "peekOfCode": "class JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\n    Placeholder for a more robust revocation list mechanism. This might not be directly configured\n    via YAML/env for a simple set. It's more of a runtime state that might be backed by Redis/DB.\n    For now, keeping it out of direct config loading, will be managed by auth module.\n    \"\"\"\n    secret_key: SecretStr = Field(\n        default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\")\n    )\n    algorithm: str = Field(default=\"HS256\")",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2137,7 +1201,7 @@
         "kind": 6,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "class LoggingConfigModel(BaseModel):\n    \"\"\"Configuration for logging.\"\"\"\n    level: str = Field(default=\"INFO\")\n    file: Optional[Path] = Field(default=None) # e.g., BASE_DIR / \"logs\" / \"aphelion.log\"\n    # Example: format: str = Field(default=\"%(asctime)s - %(name)s - %(levelname)s - %(message)s\")\n    @field_validator('level')\n    @classmethod\n    def valid_log_level(cls, value: str) -> str:\n        supported_levels = {\"DEBUG\", \"INFO\", \"WARNING\", \"ERROR\", \"CRITICAL\"}\n        if value.upper() not in supported_levels:",
+        "peekOfCode": "class LoggingConfigModel(BaseModel):\n    \"\"\"Configuration for logging.\n    Example: format: str = Field(default=\"%(asctime)s - %(name)s - %(levelname)s - %(message)s\")\n    \"\"\"\n    level: str = Field(default=\"INFO\")\n    file: Optional[Path] = Field(\n        default=None\n    )  # e.g., BASE_DIR / \"logs\" / \"aphelion.log\"\n    @field_validator(\"level\")\n    @classmethod",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2146,7 +1210,7 @@
         "kind": 6,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "class AppConfigModel(BaseSettings):\n    \"\"\"\n    Main application settings model.\n    Loads settings from environment variables, .env files, and YAML files.\n    Environment variables take precedence.\n    \"\"\"\n    model_config = SettingsConfigDict(\n        env_prefix='APHELION_',  # Environment variables should be prefixed (e.g., APHELION_JWT__SECRET_KEY)\n        env_nested_delimiter='__', # For nested models like JWTConfigModel\n        env_file=BASE_DIR / '.env',       # Load from .env file if present",
+        "peekOfCode": "class AppConfigModel(BaseSettings):\n    \"\"\"Main application settings model.\n    Loads settings from environment variables, .env files, and YAML files. Environment variables\n    take precedence.\n    \"\"\"\n    model_config = SettingsConfigDict(\n        env_prefix=\"APHELION_\",  # Environment variables should be prefixed (e.g., APHELION_JWT__SECRET_KEY)\n        env_nested_delimiter=\"__\",  # For nested models like JWTConfigModel\n        env_file=BASE_DIR / \".env\",  # Load from .env file if present\n        env_file_encoding=\"utf-8\",",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2155,7 +1219,7 @@
         "kind": 2,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "def get_config(config_file_path: Optional[Union[str, Path]] = None) -> AppConfigModel:\n    \"\"\"\n    Retrieves the global configuration instance.\n    Loads it if it hasn't been loaded yet.\n    Allows specifying a custom config file path for the initial load.\n    \"\"\"\n    global _app_config\n    if _app_config is None:\n        # Determine the config file to use\n        # Env var APHELION_CONFIG_FILE can override the default path",
+        "peekOfCode": "def get_config(config_file_path: Optional[Union[str, Path]] = None) -> AppConfigModel:\n    \"\"\"Retrieves the global configuration instance.\n    Loads it if it hasn't been loaded yet. Allows specifying a custom config file path for the\n    initial load.\n    \"\"\"\n    global _app_config\n    if _app_config is None:\n        effective_config_file = (\n            config_file_path or os.getenv(\"APHELION_CONFIG_FILE\") or DEFAULT_CONFIG_FILE\n        )",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2164,7 +1228,7 @@
         "kind": 5,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent.parent # Project root\nDEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent.parent  # Project root\nDEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\n    Placeholder for a more robust revocation list mechanism. This might not be directly configured\n    via YAML/env for a simple set. It's more of a runtime state that might be backed by Redis/DB.\n    For now, keeping it out of direct config loading, will be managed by auth module.\n    \"\"\"\n    secret_key: SecretStr = Field(",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2173,7 +1237,7 @@
         "kind": 5,
         "importPath": "src.aphelion.config",
         "description": "src.aphelion.config",
-        "peekOfCode": "DEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\"\"\"\n    secret_key: SecretStr = Field(default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\"))\n    algorithm: str = Field(default=\"HS256\")\n    access_token_expire_minutes: int = Field(default=30)\n    refresh_token_expire_days: int = Field(default=7)\n    # Placeholder for a more robust revocation list mechanism.\n    # This might not be directly configured via YAML/env for a simple set.",
+        "peekOfCode": "DEFAULT_CONFIG_FILE = BASE_DIR / \"config\" / \"aphelion_config.yaml\"\n# --- Pydantic Models for Configuration Sections ---\nclass JWTConfigModel(BaseModel):\n    \"\"\"Configuration for JWT generation and validation.\n    Placeholder for a more robust revocation list mechanism. This might not be directly configured\n    via YAML/env for a simple set. It's more of a runtime state that might be backed by Redis/DB.\n    For now, keeping it out of direct config loading, will be managed by auth module.\n    \"\"\"\n    secret_key: SecretStr = Field(\n        default_factory=lambda: SecretStr(\"your-default-super-secret-key-please-change\")",
         "detail": "src.aphelion.config",
         "documentation": {}
     },
@@ -2400,6 +1464,276 @@
         "description": "tests.auth.test_jwt",
         "peekOfCode": "DEFAULT_TEST_SECRET_KEY = \"test-secret-key-for-pytest\"\n@pytest.fixture\ndef mocked_jwt_config_model() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel instance for tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_SECRET_KEY, # type: ignore [arg-type] # pydantic handles SecretStr\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5,\n        refresh_token_expire_days=1,\n    )",
         "detail": "tests.auth.test_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "reset_target_module_enforcer",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def reset_target_module_enforcer():\n    \"\"\"\n    Ensures the _enforcer in the aphelion.authz.casbin_enforcer module\n    is reset to None before each test and restored afterwards.\n    \"\"\"\n    import aphelion.authz.casbin_enforcer as ce_module\n    original_module_enforcer = ce_module._enforcer\n    ce_module._enforcer = None\n    yield\n    ce_module._enforcer = original_module_enforcer",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "default_model_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def default_model_file() -> Path:\n    # Ensure this points to the actual default model file relative to project root\n    project_root = Path(__file__).resolve().parent.parent.parent\n    model_path = project_root / \"config\" / \"rbac_model.conf\"\n    if not model_path.exists():\n        pytest.fail(f\"Default model file not found for tests: {model_path}\")\n    return model_path\n@pytest.fixture\ndef default_policy_file() -> Path:\n    project_root = Path(__file__).resolve().parent.parent.parent",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "default_policy_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def default_policy_file() -> Path:\n    project_root = Path(__file__).resolve().parent.parent.parent\n    policy_path = project_root / \"config\" / \"rbac_policy.csv\"\n    if not policy_path.exists():\n        pytest.fail(f\"Default policy file not found for tests: {policy_path}\")\n    return policy_path\n@pytest.fixture\ndef temp_model_file(tmp_path: Path) -> Path:\n    model_content = \"\"\"\n[request_definition]",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "temp_model_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def temp_model_file(tmp_path: Path) -> Path:\n    model_content = \"\"\"\n[request_definition]\nr = sub, obj, act\n[policy_definition]\np = sub, obj, act\n[role_definition]\ng = _, _\n[policy_effect]\ne = some(where (p.eft == allow))",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "temp_policy_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def temp_policy_file(tmp_path: Path) -> Path:\n    policy_content = \"\"\"\np, test_admin, resource1, read\np, test_admin, resource1, write\np, test_user, resource1, read\ng, alice_test, test_admin\n    \"\"\"\n    file_path = tmp_path / \"test_policy.csv\"\n    file_path.write_text(policy_content)\n    return file_path",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_default_paths",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_default_paths(default_model_file, default_policy_file):\n    \"\"\"Test enforcer initialization with default model and policy files.\"\"\"\n    # Patch the constants in casbin_enforcer to ensure they point to our test-verified paths\n    # This is important if the test execution environment base path differs from module's expectation.\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            enforcer = init_enforcer()\n            assert isinstance(enforcer, casbin.Enforcer)\n            assert enforcer is get_enforcer() # Should return the same instance\ndef test_init_enforcer_custom_paths(temp_model_file: Path, temp_policy_file: Path):",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_custom_paths",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_custom_paths(temp_model_file: Path, temp_policy_file: Path):\n    \"\"\"Test enforcer initialization with custom model and policy files.\"\"\"\n    enforcer = init_enforcer(model_path=temp_model_file, policy_adapter=temp_policy_file)\n    assert isinstance(enforcer, casbin.Enforcer)\n    # Check if it loaded the custom policy\n    assert enforcer.enforce(\"test_admin\", \"resource1\", \"read\") is True\n    assert enforcer.enforce(\"alice_test\", \"resource1\", \"write\") is True # via role\n    assert enforcer.enforce(\"test_user\", \"resource1\", \"write\") is False\ndef test_init_enforcer_missing_model_file(tmp_path: Path, default_policy_file):\n    \"\"\"Test PolicyError when model file is missing.\"\"\"",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_missing_model_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_missing_model_file(tmp_path: Path, default_policy_file):\n    \"\"\"Test PolicyError when model file is missing.\"\"\"\n    missing_model_path = tmp_path / \"non_existent_model.conf\"\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n      with pytest.raises(PolicyError, match=\"Casbin model file not found\"):\n          init_enforcer(model_path=missing_model_path)\ndef test_init_enforcer_missing_policy_file(default_model_file, tmp_path: Path):\n    \"\"\"Test PolicyError when policy file is missing.\"\"\"\n    missing_policy_path = tmp_path / \"non_existent_policy.csv\"\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_missing_policy_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_missing_policy_file(default_model_file, tmp_path: Path):\n    \"\"\"Test PolicyError when policy file is missing.\"\"\"\n    missing_policy_path = tmp_path / \"non_existent_policy.csv\"\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n      # Casbin's FileAdapter itself raises \"invalid file path\" if it's missing on load attempt.\n      # Our wrapper catches this and re-raises.\n      with pytest.raises(PolicyError, match=\"Failed to initialize Casbin enforcer: invalid file path\"):\n          init_enforcer(policy_adapter=missing_policy_path)\ndef test_get_enforcer_initializes_if_none(default_model_file, default_policy_file):\n    \"\"\"Test get_enforcer() initializes with defaults if not already done.\"\"\"",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_enforcer_initializes_if_none",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_get_enforcer_initializes_if_none(default_model_file, default_policy_file):\n    \"\"\"Test get_enforcer() initializes with defaults if not already done.\"\"\"\n    import aphelion.authz.casbin_enforcer as ce_module # Import for direct access\n    # Pre-condition: The fixture should have set the target module's _enforcer to None\n    assert ce_module._enforcer is None\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            enforcer = get_enforcer()\n            assert isinstance(enforcer, casbin.Enforcer)\n            # Post-condition: The target module's _enforcer should now be the initialized enforcer",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_returns_same_instance_if_paths_match",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_returns_same_instance_if_paths_match(default_model_file, default_policy_file):\n    # This test relies on the global _enforcer state, so direct checks are also good.\n    import aphelion.authz.casbin_enforcer as ce_module\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            e1 = init_enforcer()\n            assert ce_module._enforcer is e1 # Global is set to e1\n            e2 = init_enforcer() # Calling again with same implicit paths\n            assert e1 is e2      # Should return the same instance from global\n            assert ce_module._enforcer is e1 # Global should remain e1",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_init_enforcer_reinitializes_if_model_path_differs",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_init_enforcer_reinitializes_if_model_path_differs(default_model_file, default_policy_file, temp_model_file):\n    import aphelion.authz.casbin_enforcer as ce_module\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            e1 = init_enforcer()\n            assert ce_module._enforcer is e1 # Global is e1\n            # Use the same temp_policy_file to isolate model change, or default_policy_file\n            e2 = init_enforcer(model_path=temp_model_file, policy_adapter=default_policy_file)\n            assert e1 is not e2\n            assert ce_module._enforcer is e2 # Global should now be e2",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_enforce_default_policies",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_enforce_default_policies(subject, obj, action, expected_auth, default_model_file, default_policy_file):\n    # Ensure enforcer is initialized with default files for these tests\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            init_enforcer()\n            assert enforce(subject, obj, action) is expected_auth\ndef test_enforce_uninitialized_raises_policy_error_via_get_enforcer(tmp_path):\n    \"\"\"Test that enforce calls get_enforcer which might raise PolicyError if init fails.\"\"\"\n    global global_enforcer_instance\n    global_enforcer_instance = None # Ensure it's not initialized",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_enforce_uninitialized_raises_policy_error_via_get_enforcer",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_enforce_uninitialized_raises_policy_error_via_get_enforcer(tmp_path):\n    \"\"\"Test that enforce calls get_enforcer which might raise PolicyError if init fails.\"\"\"\n    global global_enforcer_instance\n    global_enforcer_instance = None # Ensure it's not initialized\n    # Make default model path invalid to cause init failure\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', tmp_path / \"bad_model.conf\"):\n        with pytest.raises(PolicyError):\n            enforce(\"sub\", \"obj\", \"act\")\n# Future: If `enforce` is changed to raise NotAuthorizedError:\n# def test_enforce_raises_not_authorized_error(default_model_file, default_policy_file):",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_and_remove_policy_rule",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_add_and_remove_policy_rule(temp_model_file, temp_policy_file):\n    \"\"\"Test adding and removing a 'p' policy rule.\"\"\"\n    enforcer = init_enforcer(model_path=temp_model_file, policy_adapter=temp_policy_file)\n    from aphelion.authz.casbin_enforcer import add_policy_rule, remove_policy_rule, enforce as aphelion_enforce\n    sub, obj, act = \"new_user\", \"new_resource\", \"new_action\"\n    assert aphelion_enforce(sub, obj, act) is False # Should not exist initially\n    # Add policy\n    assert add_policy_rule(sub, obj, act) is True\n    assert aphelion_enforce(sub, obj, act) is True\n    # Try adding again (should return False as it already exists)",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_and_remove_grouping_policy_rule",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_add_and_remove_grouping_policy_rule(temp_model_file, temp_policy_file):\n    \"\"\"Test adding and removing a 'g' (grouping/role) policy rule.\"\"\"\n    enforcer = init_enforcer(model_path=temp_model_file, policy_adapter=temp_policy_file)\n    from aphelion.authz.casbin_enforcer import (\n        add_grouping_policy_rule, remove_grouping_policy_rule,\n        add_policy_rule, enforce as aphelion_enforce\n    )\n    user, role = \"dave_user\", \"temp_editor_role\"\n    obj, act = \"documentX\", \"edit\"\n    # Add a policy for the role first",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_all_policy_rules",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_get_all_policy_rules(default_model_file, default_policy_file):\n    \"\"\"Test retrieving all 'p' policies.\"\"\"\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            init_enforcer()\n            from aphelion.authz.casbin_enforcer import get_all_policy_rules\n            rules = get_all_policy_rules()\n            assert isinstance(rules, list)\n            # Based on default_policy.csv, check a few expected rules\n            # Note: order might not be guaranteed, so check for presence",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_all_grouping_policy_rules",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_get_all_grouping_policy_rules(default_model_file, default_policy_file):\n    \"\"\"Test retrieving all 'g' policies.\"\"\"\n    with patch('aphelion.authz.casbin_enforcer.DEFAULT_MODEL_PATH', default_model_file):\n        with patch('aphelion.authz.casbin_enforcer.DEFAULT_POLICY_PATH', default_policy_file):\n            init_enforcer()\n            from aphelion.authz.casbin_enforcer import get_all_grouping_policy_rules\n            grouping_rules = get_all_grouping_policy_rules()\n            assert isinstance(grouping_rules, list)\n            expected_alice_admin = [\"alice\", \"admin\"]\n            assert any(rule == expected_alice_admin for rule in grouping_rules)",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_save_policy_to_file",
+        "kind": 2,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "def test_save_policy_to_file(temp_model_file, tmp_path: Path):\n    \"\"\"Test saving policy to a file using FileAdapter.\"\"\"\n    # Use a fresh policy file for this test to check its content after save\n    temp_policy_for_save = tmp_path / \"policy_for_save.csv\"\n    temp_policy_for_save.touch() # Create the file so FileAdapter can load it (empty)\n    enforcer = init_enforcer(model_path=temp_model_file, policy_adapter=temp_policy_for_save)\n    from aphelion.authz.casbin_enforcer import add_policy_rule, save_policy_to_file\n    # Add a rule, it's in memory\n    add_policy_rule(\"user_save_test\", \"resource_save\", \"action_save\")\n    assert enforcer.enforce(\"user_save_test\", \"resource_save\", \"action_save\")",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "r = sub, obj, act\n[policy_definition]\np = sub, obj, act\n[role_definition]\ng = _, _\n[policy_effect]\ne = some(where (p.eft == allow))\n[matchers]\nm = g(r.sub, p.sub) && r.obj == p.obj && r.act == p.act\n    \"\"\"",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "p = sub, obj, act\n[role_definition]\ng = _, _\n[policy_effect]\ne = some(where (p.eft == allow))\n[matchers]\nm = g(r.sub, p.sub) && r.obj == p.obj && r.act == p.act\n    \"\"\"\n    file_path = tmp_path / \"test_model.conf\"\n    file_path.write_text(model_content)",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "g = _, _\n[policy_effect]\ne = some(where (p.eft == allow))\n[matchers]\nm = g(r.sub, p.sub) && r.obj == p.obj && r.act == p.act\n    \"\"\"\n    file_path = tmp_path / \"test_model.conf\"\n    file_path.write_text(model_content)\n    return file_path\n@pytest.fixture",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "e = some(where (p.eft == allow))\n[matchers]\nm = g(r.sub, p.sub) && r.obj == p.obj && r.act == p.act\n    \"\"\"\n    file_path = tmp_path / \"test_model.conf\"\n    file_path.write_text(model_content)\n    return file_path\n@pytest.fixture\ndef temp_policy_file(tmp_path: Path) -> Path:\n    policy_content = \"\"\"",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "tests.authz.test_casbin_enforcer",
+        "description": "tests.authz.test_casbin_enforcer",
+        "peekOfCode": "m = g(r.sub, p.sub) && r.obj == p.obj && r.act == p.act\n    \"\"\"\n    file_path = tmp_path / \"test_model.conf\"\n    file_path.write_text(model_content)\n    return file_path\n@pytest.fixture\ndef temp_policy_file(tmp_path: Path) -> Path:\n    policy_content = \"\"\"\np, test_admin, resource1, read\np, test_admin, resource1, write",
+        "detail": "tests.authz.test_casbin_enforcer",
+        "documentation": {}
+    },
+    {
+        "label": "test_jwt_config_for_fastapi",
+        "kind": 2,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "def test_jwt_config_for_fastapi() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel for FastAPI middleware tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_FASTAPI_SECRET_KEY, # type: ignore\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5, # Short expiry for testing is good\n    )\n@pytest.fixture(scope=\"function\") # Use function scope for test isolation\ndef mock_aphelion_config_for_fastapi_tests(test_jwt_config_for_fastapi: JWTConfigModel):\n    \"\"\"",
+        "detail": "tests.frameworks.fastapi.test_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "mock_aphelion_config_for_fastapi_tests",
+        "kind": 2,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "def mock_aphelion_config_for_fastapi_tests(test_jwt_config_for_fastapi: JWTConfigModel):\n    \"\"\"\n    Patches get_config() for the duration of a test function to return a\n    test-specific AppConfig, primarily for JWT settings.\n    This fixture ensures that JWT creation and validation within the middleware\n    and token generation utilities use a consistent, test-specific secret key and settings.\n    \"\"\"\n    test_app_config = AppConfigModel(jwt=test_jwt_config_for_fastapi)\n    # Patch get_config in the 'aphelion.auth.jwt' module, as this is where\n    # create_access_token and validate_aphelion_token (used by the middleware)",
+        "detail": "tests.frameworks.fastapi.test_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "create_test_app",
+        "kind": 2,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "def create_test_app(public_paths: Optional[set[str]] = None) -> FastAPI:\n    \"\"\"Helper to create a FastAPI app instance with the middleware.\"\"\"\n    app = FastAPI(title=\"TestAppWithAphelionMiddleware\")\n    app.add_middleware(AphelionFastAPIMiddleware, public_paths=public_paths or {\"/public\"})\n    @app.get(\"/public\")\n    async def public_route():\n        return {\"message\": \"Public access granted\"}\n    @app.get(\"/protected_state\")\n    async def protected_route_state(request: Request):\n        subject = getattr(request.state, \"subject\", None)",
+        "detail": "tests.frameworks.fastapi.test_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "test_path_matching_in_middleware",
+        "kind": 2,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "def test_path_matching_in_middleware():\n    # Test the path matching logic of the middleware (not via HTTP client)\n    # This is a unit test for a part of the middleware logic.\n    # Dummy request and call_next for synchronous testing of this part\n    class DummyRequest:\n        def __init__(self, path):\n            class URL:\n                def __init__(self, path_str):\n                    self.path = path_str\n            self.url = URL(path)",
+        "detail": "tests.frameworks.fastapi.test_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_SUBJECT_ID",
+        "kind": 5,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "TEST_SUBJECT_ID = \"test_fastapi_user\"\nDEFAULT_TEST_FASTAPI_SECRET_KEY = \"fastapi-middleware-test-secret\"\n@pytest.fixture\ndef test_jwt_config_for_fastapi() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel for FastAPI middleware tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_FASTAPI_SECRET_KEY, # type: ignore\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5, # Short expiry for testing is good\n    )",
+        "detail": "tests.frameworks.fastapi.test_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TEST_FASTAPI_SECRET_KEY",
+        "kind": 5,
+        "importPath": "tests.frameworks.fastapi.test_middleware",
+        "description": "tests.frameworks.fastapi.test_middleware",
+        "peekOfCode": "DEFAULT_TEST_FASTAPI_SECRET_KEY = \"fastapi-middleware-test-secret\"\n@pytest.fixture\ndef test_jwt_config_for_fastapi() -> JWTConfigModel:\n    \"\"\"Provides a consistent JWTConfigModel for FastAPI middleware tests.\"\"\"\n    return JWTConfigModel(\n        secret_key=DEFAULT_TEST_FASTAPI_SECRET_KEY, # type: ignore\n        algorithm=\"HS256\",\n        access_token_expire_minutes=5, # Short expiry for testing is good\n    )\n@pytest.fixture(scope=\"function\") # Use function scope for test isolation",
+        "detail": "tests.frameworks.fastapi.test_middleware",
         "documentation": {}
     },
     {
