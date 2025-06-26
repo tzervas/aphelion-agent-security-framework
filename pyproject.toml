@@ -1,0 +1,82 @@
+[project]
+name = "aphelion"
+version = "0.1.0"
+description = "Aphelion Agent Security Framework"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Tyler Zervas", email = "tz-dev@vectorwieght.com"},
+]
+maintainers = [
+    {name = "Tyler Zervas", email = "tz-dev@vectorwieght.com"},
+]
+
+dependencies = [
+    # Core runtime dependencies will be added here as features are implemented.
+    # For example:
+    # "fastapi>=0.104.0",
+    # "pyjwt>=2.8.0",
+    # "pycasbin>=1.15.0",
+    # "cryptography>=41.0.0",
+    # "uvicorn>=0.24.0",
+    # "pydantic>=2.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.9.0",
+    "pytest-cov>=5.0.0", # For coverage
+    # "uv>=0.1.40", # uv is used to manage, not necessarily a dep itself here
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye] # For Rye users, optional but good practice
+managed = true
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.9.0",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I", "UP", "PL", "T20"] # Enable common linters
+ignore = ["E501"] # Ignore line too long, handled by black
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --cov=src/aphelion --cov-report=term-missing"
+testpaths = [
+    "tests",
+]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true # Recommended for now, can be stricter later
+# namespace_packages = true # Add if using namespace packages
+# explicit_package_bases = true # Add if using namespace packages and want mypy to correctly find them
+# check_untyped_defs = true # Enforces typing in all function definitions
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+allow_untyped_defs = true # Be more lenient in tests if necessary
