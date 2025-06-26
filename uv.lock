@@ -57,10 +57,14 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "bandit", marker = "extra == 'dev'", specifier = ">=1.7.0" },
+<<<<<<< Updated upstream
+    { name = "black", marker = "extra == 'dev'", specifier = ">=24.0.0" },
+=======
     { name = "black", marker = "extra == 'dev'", specifier = ">=25.1.0" },
-    { name = "cryptography", specifier = ">=42.0.4" },
+    { name = "cryptography", specifier = ">=45.0.4" },
     { name = "fastapi", specifier = ">=0.104.0" },
     { name = "httpx", marker = "extra == 'dev'", specifier = ">=0.20.0" },
+>>>>>>> Stashed changes
     { name = "hypothesis", marker = "extra == 'dev'", specifier = ">=6.0.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.9.0" },
     { name = "pycasbin", specifier = ">=1.15.0" },
