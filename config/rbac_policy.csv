@@ -1,0 +1,28 @@
+# Casbin RBAC Policy Rules
+# Format: p, subject, object, action
+
+# Admin role has full access to all resources and actions
+p, admin, data_resource_1, read
+p, admin, data_resource_1, write
+p, admin, tool_alpha, execute
+p, admin, sensitive_data_bucket, list
+p, admin, sensitive_data_bucket, get_object
+
+# Editor role can read/write data_resource_1 and execute tool_beta
+p, editor, data_resource_1, read
+p, editor, data_resource_1, write
+p, editor, tool_beta, execute
+
+# Viewer role can only read data_resource_1
+p, viewer, data_resource_1, read
+
+# Specific user policies (can also be assigned roles)
+# p, user_alice, data_resource_2, read
+
+# Role hierarchy examples (g, user, role)
+# g, user_bob, editor
+# g, user_charlie, viewer
+# g, super_admin, admin # A role inheriting from another role
+g, alice, admin
+g, bob, editor
+g, cathy, viewer
