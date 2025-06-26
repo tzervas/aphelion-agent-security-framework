@@ -1,6 +1,6 @@
 # src/aphelion/authz/casbin_enforcer.py
 
-import casbin
+import casbin # Reverted to casbin
 from pathlib import Path
 from typing import Optional, Any, Union # Added Union
 
@@ -14,7 +14,7 @@ DEFAULT_MODEL_PATH = CONFIG_BASE_DIR / "rbac_model.conf"
 DEFAULT_POLICY_PATH = CONFIG_BASE_DIR / "rbac_policy.csv"
 
 # --- Global Enforcer Instance ---
-_enforcer: Optional[casbin.Enforcer] = None
+_enforcer: Optional[casbin.Enforcer] = None # Reverted to casbin.Enforcer
 
 # --- Custom Exceptions ---
 class PolicyError(Exception):
@@ -40,7 +40,7 @@ class NotAuthorizedError(AuthorizationError):
 def init_enforcer(
     model_path: Optional[Union[str, Path]] = None,
     policy_adapter: Optional[Union[str, Path, object]] = None
-) -> casbin.Enforcer:
+) -> casbin.Enforcer: # Reverted to casbin.Enforcer
     """
     Initializes and returns a Casbin enforcer instance.
     If an enforcer is already initialized, it returns the existing one unless paths are different.
@@ -99,7 +99,7 @@ def init_enforcer(
         # For other adapters (like SQLAlchemy), they would be passed in as policy_adapter object.
         # Ensure policy adapter path is also stringified if it's a Path object for casbin.Enforcer constructor.
         policy_arg = str(eff_policy_adapter) if isinstance(eff_policy_adapter, Path) else eff_policy_adapter
-        e = casbin.Enforcer(str(eff_model_path), policy_arg)
+        e = casbin.Enforcer(str(eff_model_path), policy_arg) # Reverted to casbin.Enforcer
 
         # Store paths on enforcer for simple re-init check (optional enhancement)
         e._current_model_path = eff_model_path
@@ -112,7 +112,7 @@ def init_enforcer(
         raise PolicyError(f"Failed to initialize Casbin enforcer: {e}")
 
 
-def get_enforcer() -> casbin.Enforcer:
+def get_enforcer() -> casbin.Enforcer: # Reverted to casbin.Enforcer
     """
     Retrieves the global Casbin enforcer instance.
     Initializes it with default paths if it hasn't been initialized yet.
