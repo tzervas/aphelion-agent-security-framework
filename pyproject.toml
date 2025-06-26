@@ -32,6 +32,8 @@ dev = [
     "ruff>=0.3.0",
     "mypy>=1.9.0",
     "pytest-cov>=5.0.0", # For coverage
+    "bandit>=1.7.0",     # For security linting
+    "hypothesis>=6.0.0", # For property-based testing / fuzzing
     # "uv>=0.1.40", # uv is used to manage, not necessarily a dep itself here
 ]
 
@@ -47,6 +49,8 @@ dev-dependencies = [
     "ruff>=0.3.0",
     "mypy>=1.9.0",
     "pytest-cov>=5.0.0",
+    "bandit>=1.7.0",
+    "hypothesis>=6.0.0",
 ]
 
 [tool.hatch.metadata]
