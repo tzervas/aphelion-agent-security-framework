@@ -1,5 +1,10 @@
 # Aphelion Agent Security Framework
 
+<!-- FLEET-BADGES:BEGIN -->
+[![CI](https://github.com/tzervas/aphelion-agent-security-framework/actions/workflows/fleet-ci.yml/badge.svg?branch=main)](https://github.com/tzervas/aphelion-agent-security-framework/actions/workflows/fleet-ci.yml?query=branch%3Amain)
+[![Security](https://github.com/tzervas/aphelion-agent-security-framework/actions/workflows/fleet-security.yml/badge.svg?branch=main)](https://github.com/tzervas/aphelion-agent-security-framework/actions/workflows/fleet-security.yml?query=branch%3Amain)
+<!-- FLEET-BADGES:END -->
+
 🚀 **Project Status**: In active development. All components subject to change. Contributions and feedback welcome.
 
 🎯 **Intent**: Simplify and strengthen security for AI agents, tool interactions, and data access across workflows and environments. Provide a lightweight, user-friendly solution for hobbyists, small businesses, and enterprises.
